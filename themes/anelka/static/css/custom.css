@@ -1,0 +1,13 @@
+/* post cards */
+.post-meta {
+    color: #828282;
+}
+
+.index-anchor {
+    text-decoration: none;
+    color: #111;
+    &:hover {
+            text-decoration: none;
+            color: #111;
+    }
+}
