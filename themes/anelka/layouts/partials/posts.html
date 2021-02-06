@@ -1,37 +1,46 @@
-<div class="home">
- 
-  
-    <div class="row pack">
+<div class="home"> 
+    <div class="album py-5 bg-transparent">
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
         {{ range $paginator.Pages }}   
-            <div class="col-md-4 card">
+            <div class="col">
+          <div class="card shadow-sm">
              <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="panel panel-default">
                   
                   {{ if .Params.image }}
                   {{ with .Resources.Match .Params.image }}
                     {{ range . }}
-                      <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                      <img class="bd-placeholder-img card-img-top" width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
                     {{ end }}
                   {{ end }}
                   {{ else }}
                   <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
                   {{ end }}
                   
-                  <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3><span class="post-meta pull-right"><small>{{ .Date.Format "January 2, 2006" }}</small></span>
-                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title pull-left">{{ .Title | truncate 25 }}</h3><span class="card-meta pull-right text-muted"><small>{{ .Date.Format "January 2, 2006" }}</small></span>
                   
-                  <div class="panel-body"><small>
-                    {{ .Summary | plainify | truncate 180 }}</small>
+                  <p class="card-text"><small>
+                    {{ if .Description }}
+                                  {{ .Description | plainify | truncate 180 }}
+                                {{ else }}
+                                  {{ .Summary | plainify | truncate 180 }}
+                                {{ end }}
+                    </small>
+                    </p>
+
                   </div>
+                </div>
                 </div>
                 </a>
             </div>
         
           {{ end }}
-
+        </div>
+      </div>
     </div> 
     
 <div class="row">
