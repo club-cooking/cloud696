@@ -1,18 +1,7 @@
-/* all */
-html,body {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
-/* cards */
-.index-anchor {
-    text-decoration: none;
-    color: #111;
-}
-
-.index-anchor:hover {
-	text-decoration: none;
-    color: #111;
+/* global CSS */
+:root {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
 }
 
 /* navbar */
@@ -24,4 +13,20 @@ html,body {
     border-color: transparent;
     background-color: transparent;
     padding: 10px 0;
+}
+
+/* cards */
+.index-anchor {
+    text-decoration: none;
+    color: #111;
+}
+
+.index-anchor:hover {
+    text-decoration: none;
+    color: #111;
+}
+
+/* audio players (see https://github.com/sampotts/plyr) */
+.plyr {
+  --plyr-color-main: #1ac266;
 }
