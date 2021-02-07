@@ -5,7 +5,7 @@ description: "A mix entry."
 image: images/featured.jpg
 tags: []
 type: "mix"
-draft: true
+draft: false
 ---
 
 Some words about the mix.
