@@ -4,6 +4,6 @@ date: {{ .Date }}
 description: ""
 image: images/featured.jpg
 tags: []
-type: "blog"
+type: "mix"
 draft: true
 ---

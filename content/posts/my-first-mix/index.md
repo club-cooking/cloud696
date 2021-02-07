@@ -4,6 +4,7 @@ date: 2021-02-07T12:30:22Z
 description: "A mix entry."
 image: images/featured.jpg
 tags: []
+type: "mix"
 draft: true
 ---
 

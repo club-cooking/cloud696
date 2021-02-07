@@ -1,11 +1,9 @@
+<audio id="player" controls>
 {{ if .IsNamedParams }}
-  <audio id="player" controls>
   <source src="{{ .Get "mp3" }}" type="audio/mp3" />
   <source src="{{ .Get "ogg" }}" type="audio/ogg" />
-</audio>
 {{ else }}
-  <audio id="player" controls>
   <source src="{{ .Get 0 }}" type="audio/mp3" />
   <source src="{{ .Get 1}}" type="audio/ogg" />
-</audio>
 {{ end }}
+</audio>
