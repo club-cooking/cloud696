@@ -1,15 +1,13 @@
-<table>
-    <tbody>
-    {{ $url := .Get 0 }}
-    {{ $sep := "," }}
-    {{ range $i, $r := getCSV $sep $url }}
-    {{ if ge $i 1 }}
-      <tr>
-        <td>{{ index $r 0 }}</td>
-        <td>{{ index $r 2 }}</td>
-        <td>{{ index $r 3 }}</td>
-      </tr>
-      {{end}}
-    {{ end }}
-    </tbody>
-  </table>
+<div class="tracklist">
+  <h3>Tracklist</h3>
+  {{ $url := .Get 0 }}
+  {{ $sep := "," }}
+  {{ range $i, $r := getCSV $sep $url }}
+  {{ if ge $i 1 }}
+  <span class="artist-name">{{ index $r 0 }}</span>
+  <span class="track-name">{{ index $r 1 }}</span>
+  <span class="label-name">{{ index $r 2 }}</span>
+  <br>
+  {{ end }}
+{{ end }}
+</div>
