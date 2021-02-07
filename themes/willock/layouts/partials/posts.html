@@ -15,9 +15,7 @@
                     {{ range . }}
                       <img class="bd-placeholder-img card-img-top" width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
                     {{ end }}
-                  {{ end }}
-                  {{ else }}
-                  <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
+                    {{ end }}
                   {{ end }}
                   
                   <div class="card-body">

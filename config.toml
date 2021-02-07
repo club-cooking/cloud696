@@ -1,7 +1,7 @@
 baseURL = "https://cloud696.club/"
 languageCode = "en-us"
 title = "cloud696"
-theme = "anelka"
+theme = "willock"
 
 [menu]
   [[menu.main]]
@@ -9,10 +9,6 @@ theme = "anelka"
     pre = "home"
     url = "/"
     weight = 1
-
-[params]
-  defaultImage = "stock.jpg"
-  customCSS = ["css/custom.css"]
 
 [permalinks]
  posts = "/:filename/"
