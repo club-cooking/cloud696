@@ -1,30 +1,4 @@
 /* global CSS */
-:root {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-}
-
-/* navbar */
-.navbar {
-    border-radius: 0;
-}
-
-.navbar-default {
-    border-color: transparent;
-    background-color: transparent;
-    padding: 10px 0;
-}
-
-/* cards */
-.index-anchor {
-    text-decoration: none;
-    color: white;
-}
-
-.index-anchor:hover {
-    text-decoration: none;
-    color: white;
-}
 
 /* audio players (see https://github.com/sampotts/plyr) */
 .plyr {
