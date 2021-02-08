@@ -1,14 +1,11 @@
 baseURL = "https://cloud696.club/"
-languageCode = "en-us"
 title = "cloud696"
+languageCode = "en-gb"
 theme = "willock"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-
+[params]
+  description = "Your site description"
+  copyright = "Copyright © 2021 Your Name"
+  
 [permalinks]
- posts = "/:filename/"
+ posts = "/:year/:month/:title/"

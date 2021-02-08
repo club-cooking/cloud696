@@ -1,77 +1,32 @@
-<div class="home"> 
-    <div class="album py-5 bg-transparent">
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
+<div class="flex-container">
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
-        {{ range $paginator.Pages }}   
-            <div class="col">
-          <div class="card shadow-sm">
+        {{ range $paginator.Pages }}  
+        <div class="container">
+          <div class="card">
              <a href="{{ .Permalink }}" class="index-anchor">    
-                <div class="panel panel-default">
                   
                   {{ if .Params.image }}
                   {{ with .Resources.Match .Params.image }}
                     {{ range . }}
-                      <img class="bd-placeholder-img card-img-top" width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                      <img class="card-image" width="99.3%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
                     {{ end }}
                     {{ end }}
                   {{ end }}
                   
-                  <div class="card-body">
-                    <h3 class="card-title pull-left">{{ .Title | truncate 25 }}</h3><span class="card-meta pull-right text-muted"><small>{{ .Date.Format "January 2, 2006" }}</small></span>
+                  <div class="card-content">
+                    <h3 class="card-title">{{ .Title | truncate 25 }}</h3><span class="card-date">{{ .Date.Format "January 2, 2006" }}</span>
                   
-                  <p class="card-text"><small>
+                  <p>
                     {{ if .Description }}
                                   {{ .Description | plainify | truncate 180 }}
                                 {{ else }}
                                   {{ .Summary | plainify | truncate 180 }}
                                 {{ end }}
-                    </small>
                     </p>
 
                   </div>
                 </div>
-                </div>
                 </a>
-            </div>
-        
+        </div> 
           {{ end }}
-        </div>
-      </div>
-    </div> 
-    
-<div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4">
-        {{ if gt .Paginator.TotalPages 1 }}
-        <ul class="pagination">
-          {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
-          {{ else }}
-            <li><span>&laquo; Prev</span></li>
-          {{ end }}
-
-          {{ $scratch := newScratch }}
-          {{ $scratch.Set "current" .Paginator.PageNumber }} 
-
-          {{ range .Paginator.Pagers }}
-            {{ if eq .PageNumber ($scratch.Get "current") }}
-              <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
-            {{ else }}
-            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-            {{ end }}
-          {{ end }}
-
-          {{ if .Paginator.HasNext }}
-            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
-          {{ else }}
-            <li><span >Next &raquo;</span></li>
-          {{ end }}
-          </ul>
-        {{ end }}
-
-    </div>
-    <div class="col-md-4">  </div>
-</div>
 </div>

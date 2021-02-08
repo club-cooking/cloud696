@@ -1,0 +1,43 @@
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 800px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } 
+}
+
+p {
+	padding: 0rem 1rem 1rem 0rem;
+}
+
+.card {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  position: relative; }
+  .card .card-title {
+    margin: 0;
+    line-height: 1; }
+  .card p {
+  	padding: 0;
+    margin: 0 0 10px; }
+  .card .card-date {
+    margin: 0 0 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E76C67; }
+  .card .card-image {
+  	border: 2px solid #c6c6c6;
+  	border-radius: 8px 8px 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .card .card-content {
+    padding: 10px 30px 30px 30px; 
+}
+

@@ -1,7 +1,7 @@
 /* global CSS */
 :root {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* navbar */
@@ -18,12 +18,12 @@
 /* cards */
 .index-anchor {
     text-decoration: none;
-    color: #111;
+    color: white;
 }
 
 .index-anchor:hover {
     text-decoration: none;
-    color: #111;
+    color: white;
 }
 
 /* audio players (see https://github.com/sampotts/plyr) */
