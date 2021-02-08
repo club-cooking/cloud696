@@ -1,3 +1,9 @@
+/* navigation */
+.site-header {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
 /* containers and boxes */
 *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -8,6 +14,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } 
+}
+
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* cards */
@@ -52,13 +63,14 @@
 /* post titling */
 .post-title {
     display: block;
-    line-height: 1.15;
+    line-height: 1;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .post-header time {
     display: block;
+    line-height: 1;
     font-size: 0.85em;
 }
 
