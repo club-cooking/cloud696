@@ -4,7 +4,7 @@ languageCode = "en-gb"
 theme = "willock"
 
 [params]
-  description = "Your site description"
+  description = "Global sounds and local patter, broadcasting from South London."
   copyright = "Copyright © 2021 Your Name"
   
 [permalinks]
