@@ -5,8 +5,8 @@
           <div class="card">
              <a href="{{ .Permalink }}" class="index-anchor">    
                   
-                  {{ if .Params.image }}
-                  {{ with .Resources.Match .Params.image }}
+                  {{ if .Params.images }}
+                  {{ with .Resources.Match .Params.images }}
                     {{ range . }}
                       <img class="card-image" width="99.3%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
                     {{ end }}

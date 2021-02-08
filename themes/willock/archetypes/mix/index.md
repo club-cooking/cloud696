@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: ""
-image: images/featured.jpg
+images: images/featured.jpg
 tags: []
 type: "mix"
 draft: true

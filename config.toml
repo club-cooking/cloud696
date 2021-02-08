@@ -6,6 +6,7 @@ theme = "willock"
 [params]
   description = "Global sounds and local patter, broadcasting from South London."
   copyright = "Copyright © 2021 Your Name"
+  images = ["images/logo-white.png"]
   
 [permalinks]
  posts = "/:year/:month/:title/"

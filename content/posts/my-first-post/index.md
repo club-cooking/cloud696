@@ -2,7 +2,7 @@
 title: "My First Post"
 date: 2021-02-04T23:22:24Z
 description: "A test post."
-image: porco007.jpg
+images: porco007.jpg
 draft: false
 tags: ["foo", "bar"]
 ---
