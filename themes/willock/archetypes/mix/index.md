@@ -7,3 +7,5 @@ tags: []
 type: "mix"
 draft: true
 ---
+
+{{< figure src="images/featured.jpg" width="80%" caption="" >}}

@@ -5,8 +5,10 @@
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
   <span class="artist-name">{{ index $r 0 }}</span>
+  <br>
   <span class="track-name">{{ index $r 1 }}</span>
-  <span class="label-name">{{ index $r 2 }}</span>
+  <span class="label-name">[{{ index $r 2 }}]</span>
+  <button class="btn"><a href="{{ index $r 3 }}">BUY!</a></button>
   <br>
   {{ end }}
 {{ end }}

@@ -8,6 +8,8 @@ type: "mix"
 draft: false
 ---
 
+{{< figure src="images/featured.jpg" width="80%" caption="Source (Year)" >}}
+
 Some words about the mix.
 
 {{< player mp3="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3" ogg="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.ogg" >}}
