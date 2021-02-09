@@ -17,9 +17,31 @@
 }
 
 /* main page content */
-.content {
-  padding-top: 3rem;
+main#content {
   padding-bottom: 3rem;
+}
+
+main#content a:hover {
+    text-decoration: underline;
+}
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 0;
+    line-height: 1.15;
+}
+
+main#content h1 + p,
+main#content h2 + p,
+main#content h3 + p,
+main#content h4 + p,
+main#content h5 + p,
+main#content h6 + p {
+    margin-top: 5px;
 }
 
 /* cards */
@@ -62,16 +84,15 @@
 }
 
 /* post titling */
-.post-title {
+main#content header#post-header h1 {
     display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
     line-height: 1;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
-.post-header time {
+main#content header#post-header time {
     display: block;
-    line-height: 1;
     font-size: 0.85em;
 }
 
@@ -83,10 +104,22 @@ p {
 }
 
 /* figures */
-figure {
-  margin-inline-start: 0;
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-figcaption {
-  margin-block-start: 0;
+main#content figure img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure figcaption {
+    font-size: 0.85em;
+    font-style: italic;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    padding: 0 10px;
 }
