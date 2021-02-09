@@ -56,6 +56,10 @@ figure figcaption {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.posts {
+  padding-top: 1em;
+}
+
 @media screen and (min-width: 800px) {
   .flex-container {
     display: -webkit-box;
@@ -128,7 +132,7 @@ main#content h6 + p {
 }
 
 /* post titling */
-main#content header#post-header h1 {
+main#content header#post-header h1#post-title {
     font-size: 1.5em;
     margin-bottom: 0;
 }

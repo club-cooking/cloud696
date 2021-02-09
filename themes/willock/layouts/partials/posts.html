@@ -1,3 +1,4 @@
+<div class="posts">
 <div class="flex-container">
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
         {{ range $paginator.Pages }}  
@@ -29,4 +30,5 @@
                 </a>
         </div> 
           {{ end }}
+</div>
 </div>
