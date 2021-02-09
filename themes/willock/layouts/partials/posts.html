@@ -14,7 +14,7 @@
                   {{ end }}
                   
                   <div class="card-content">
-                    <h3 class="card-title">{{ .Title | truncate 25 }}</h3><span class="card-date">{{ .Date.Format "January 2, 2006" }}</span>
+                    <h3 id="card-title">{{ .Title | truncate 25 }}</h3><span class="card-date">{{ .Date.Format "January 2, 2006" }}</span>
                   
                   <p>
                     {{ if .Description }}

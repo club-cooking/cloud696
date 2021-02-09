@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-{{< figure src="images/featured.jpg" width="80%" caption="Source (Year)" >}}
+{{< figure src="images/featured.jpg" width="100%" caption="Source (Year)" >}}
 
 Some words about the mix.
 
