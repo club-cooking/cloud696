@@ -18,11 +18,7 @@
                     <h3 id="card-title">{{ .Title | truncate 25 }}</h3><span class="card-date">{{ .Date.Format "January 2, 2006" }}</span>
                   
                   <p>
-                    {{ if .Description }}
-                                  {{ .Description | plainify | truncate 180 }}
-                                {{ else }}
-                                  {{ .Summary | plainify | truncate 180 }}
-                                {{ end }}
+                    {{ .Description | plainify | truncate 180 }}
                     </p>
 
                   </div>

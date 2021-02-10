@@ -60,7 +60,13 @@ figure figcaption {
   .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; } 
+
+    .flex-container>* {
+        flex: 1 1 300px;
+    }
 }
 
 /* page content */
@@ -98,14 +104,14 @@ main#content h6 + p {
   position: relative; }
   .card #card-title {
     margin: 0;
-    line-height: 1; }
+    line-height: 0.8; }
   .card p {
   	padding: 0;
-    margin: 0 0 10px; }
+    margin: 0 0 10px;
+    font-size: 1.9rem; }
   .card .card-date {
     margin: 0 0 15px;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.8rem;
     color: #E76C67; }
   .card .card-image {
   	border: 2px solid #c6c6c6;
@@ -114,7 +120,7 @@ main#content h6 + p {
     background-position: center center;
     background-repeat: no-repeat; }
   .card .card-content {
-    padding: 10px 30px 30px 30px; 
+    padding: 0.1em 0.5em 0.5em 0.3em; 
 }
 
 .index-anchor {
