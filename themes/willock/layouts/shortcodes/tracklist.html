@@ -1,10 +1,10 @@
 <div class="tracklist">
-  <h3>Tracklist</h3>
+  <h2>Tracklist</h2>
   {{ $url := .Get 0 }}
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
-  <span class="artist-name">{{ index $r 0 }}</span>
+  <span class="artist-name"><strong>{{ index $r 0 }}</strong></span>
   <br>
   <span class="track-name">{{ index $r 1 }}</span>
   <span class="label-name">[{{ index $r 2 }}]</span>
