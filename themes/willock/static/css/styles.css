@@ -139,12 +139,16 @@ time {
     color: #E76C67;
 }
 
-/* buttons */
+/* tracklist */
 .tracklist .btn {
   font-size: 16px;
   padding: 0 2rem 0 2rem;
 }
 
 .tracklist span {
-  line-height: 30px
+  line-height: 40px;
+}
+
+.tracklist .artist-name {
+  font-size: 45px;
 }
