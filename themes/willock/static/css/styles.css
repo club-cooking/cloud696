@@ -161,9 +161,10 @@ main#content .btn {
 
 /* tracklist */
 .tracklist span {
-  line-height: 40px;
+  line-height: 10px;
 }
 
 .tracklist .artist-name {
-  font-size: 45px;
+  font-size: 35px;
+  color: gold;
 }
