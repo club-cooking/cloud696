@@ -3,4 +3,6 @@
 /* audio players (see https://github.com/sampotts/plyr) */
 .plyr {
   --plyr-color-main: #1ac266;
+  --plyr-control-icon-size: 25px;
+  --plyr-font-size-time: 40px;
 }

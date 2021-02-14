@@ -1,4 +1,4 @@
-<audio id="player" controls>
+<audio id="player" controls: >
 {{ if .IsNamedParams }}
   <source src="{{ .Get "mp3" }}" type="audio/mp3" />
   <source src="{{ .Get "ogg" }}" type="audio/ogg" />
