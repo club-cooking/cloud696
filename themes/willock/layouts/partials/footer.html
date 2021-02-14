@@ -2,7 +2,13 @@
     {{ if eq .Type "mix" }}
 <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
 <script>
-  const player = new Plyr('#player');
+	const dl_url = document.getElementById('player').getAttribute('dl')
+  const player = new Plyr('#player', {
+  	controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'download'],
+    urls: {
+        download: dl_url,
+    },
+});
 </script>
 {{ end }}
 </html>

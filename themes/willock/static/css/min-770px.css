@@ -24,7 +24,7 @@ main#content pre {
     } 
 
     .flex-container>* {
-        flex: 1 1 300px;
+        flex: 1 1 350px;
     }
 
     .container {
