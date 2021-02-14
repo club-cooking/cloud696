@@ -27,12 +27,9 @@ figure img {
 }
 
 figure figcaption {
-    font-size: 1em;
     font-style: italic;
-    line-height: 22px;
     text-align: center;
     margin-top: 6px;
-    padding: 0 10px;
 }
 
 /* navigation */
