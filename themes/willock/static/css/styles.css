@@ -62,10 +62,16 @@ figure figcaption {
     display: -ms-flexbox;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row; } 
+    } 
 
     .flex-container>* {
         flex: 1 1 300px;
+    }
+
+    .container {
+      width: 32%;
+      margin-bottom: 2%;
+      position: relative;
     }
 }
 
