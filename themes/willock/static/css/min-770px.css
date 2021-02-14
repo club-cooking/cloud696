@@ -1,0 +1,35 @@
+@media (min-width: 770px) {
+body {
+    width: 770px;
+}
+
+main#content img {
+    max-width: 108%;
+}
+
+main#content figure img {
+    max-width: 108%;
+}
+
+main#content pre {
+    width: 108%;
+    padding: 1.5rem 2.2rem;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    } 
+
+    .flex-container>* {
+        flex: 1 1 300px;
+    }
+
+    .container {
+      width: 32%;
+      margin-bottom: 2%;
+      position: relative;
+    }
+}

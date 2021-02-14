@@ -1,8 +1,17 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* body */
+body {
+  width: 100%;
+  padding: 0rem 1rem 1rem 1rem;
+  line-height: 80%;
+}
+
 /* paragraphs */
 p {
-  padding: 0rem 1rem 1rem 0rem;
-  margin: 16px 0;
-  line-height: 
+  padding-left: 0;
 }
 
 /* images */
@@ -26,12 +35,6 @@ figure figcaption {
     padding: 0 10px;
 }
 
-@media screen and (min-width: 600px) {
-  figure {
-    padding: 0 40px;
-  }
-}
-
 /* navigation */
 .site-header {
   padding-top: .5rem;
@@ -40,39 +43,10 @@ figure figcaption {
 
 /* containers */
 .content {
-  margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
-  padding: 0 1ch;
   word-wrap: break-word;
-}
-
-*::before, *::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.posts {
-  padding-top: 1em;
-}
-
-@media screen and (min-width: 800px) {
-  .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    } 
-
-    .flex-container>* {
-        flex: 1 1 300px;
-    }
-
-    .container {
-      width: 32%;
-      margin-bottom: 2%;
-      position: relative;
-    }
 }
 
 /* page content */
@@ -86,8 +60,8 @@ main#content h3,
 main#content h4,
 main#content h5,
 main#content h6 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
     line-height: 1;
 }
 
@@ -97,7 +71,7 @@ main#content h3 + p,
 main#content h4 + p,
 main#content h5 + p,
 main#content h6 + p {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 /* home page cards */
