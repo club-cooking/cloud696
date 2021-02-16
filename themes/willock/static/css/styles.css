@@ -2,6 +2,19 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* navbar */
+.container-fluid#nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-fluid span {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
 /* body */
 body {
   padding: 0rem 1rem 1rem 1rem;

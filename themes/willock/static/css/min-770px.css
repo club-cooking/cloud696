@@ -24,6 +24,6 @@ main#content pre {
     .container {
       width: 45%;
       margin-bottom: 2%;
-      position: relative;
+      margin: 2% auto;
     }
 }
