@@ -9,10 +9,9 @@
   justify-content: space-between;
 }
 
-.container-fluid span {
+.container-fluid a {
   text-decoration: none;
   color: white;
-  vertical-align: middle;
 }
 
 /* body */
