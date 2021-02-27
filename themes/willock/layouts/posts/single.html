@@ -1,14 +1,14 @@
 {{ define "main" }}
-<article class="post">
+<div class="box-content p-4 sm:p-8">
 
-  <header id="post-header">
-    <h1 id="post-title">{{ .Title }}</h1>
+  <header>
+    <h1 class="text-4xl pb-4" id="post-title">{{ .Title }}</h1>
     {{ partial "metadata.html" . }}
   </header>
 
-  <div class="post-content">
+  <div class="py-4 text-xl">
     {{ .Content }}
   </div>
 
-</article>
+</div>
 {{ end }}

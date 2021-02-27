@@ -8,10 +8,9 @@
     <title>{{ .Title }}</title>
     {{ template "_internal/twitter_cards.html" . }}
     <link rel="canonical" href="{{ .Permalink | absURL }}">
-    <link rel="stylesheet" href="{{ "css/psone.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/tailwind.css" | relURL }}">
     {{ if eq .Type "mix" }}
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
-    <link href="{{ "css/custom.css" | absURL }}" rel="stylesheet">
     {{ end }}
     <link href="{{ "css/styles.css" | absURL }}" rel="stylesheet">
     <link href="{{ "css/min-770px.css" | absURL }}" rel="stylesheet">

@@ -1,4 +1,5 @@
-<h2>Audio</h2>
+<h2 class="text-4xl pt-4">Audio</h2>
+<div class="py-4">
 <audio id="player" download="{{ .Get "dl" }}">
 {{ if .IsNamedParams }}
   <source src="{{ .Get "mp3" }}" type="audio/mp3" />
@@ -8,4 +9,4 @@
   <source src="{{ .Get 1}}" type="audio/ogg" />
 {{ end }}
 </audio>
-
+</div>

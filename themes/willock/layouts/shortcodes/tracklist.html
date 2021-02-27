@@ -1,15 +1,15 @@
 <div class="tracklist">
-  <h2>Tracklist</h2>
+  <h2 class="text-4xl py-4">Tracklist</h2>
   {{ $url := .Get 0 }}
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
-  <span class="artist-name"><strong>{{ index $r 0 }}</strong></span>
-  <br>
-  <span class="track-name">{{ index $r 1 }}</span>
-  <span class="label-name">[{{ index $r 2 }}]</span>
-  <button type="button" class="btn primary"><a href="{{ index $r 3 }}">BUY!</a></button>
-  <br>
+  <span class="artist-name text-2xl tracking-widest"><strong>{{ index $r 0 }}</strong></span>
+  <div class="pb-4">
+  <span class="track-name text-xl">{{ index $r 1 }}</span>
+  <span class="label-name text-xl">[{{ index $r 2 }}]</span>
+  <button type="button" class="btn border-2 border-white font-bold py-1 px-2 sm:px-4 rounded"><a href="{{ index $r 3 }}">BUY!</a></button>
+  </div>
   {{ end }}
 {{ end }}
 </div>

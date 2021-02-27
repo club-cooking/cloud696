@@ -1,7 +1,9 @@
 <header class="site-header">
-  <div class="container-fluid" id="nav">
-  	<a id="home" class="nav-link" href="/">HOME</a>
-  	<img id="logo" src = "{{ .Site.BaseURL }}images/logo-white.png" width="100" alt="logo"/>
-  	<a id="info" class="nav-link" href="/info">INFO</a>
-  </div>
+  <nav class="border-b-2" id="nav">
+  	<div class="flex items-center justify-between px-4 md:px-8 py-2.5">
+  	<a class="text-lg" href="/">HOME</a>
+  	<img src = "{{ .Site.BaseURL }}images/logo-white.png" width="50" alt="logo"/>
+  	<a class="text-lg" href="/info">INFO</a>
+  	</div>
+  </nav>
 </header>
