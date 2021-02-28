@@ -10,10 +10,10 @@
     <link rel="canonical" href="{{ .Permalink | absURL }}">
     {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
 {{ if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" crossorigin="anonymous">
 {{ else }}
   {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
     {{ if eq .Type "mix" }}
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
