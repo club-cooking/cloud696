@@ -10,6 +10,3 @@ theme = "willock"
   
 [permalinks]
  posts = "/:year/:month/:title/"
-
- [build]
-  writeStats = true
