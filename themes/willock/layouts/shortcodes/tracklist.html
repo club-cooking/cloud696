@@ -4,11 +4,11 @@
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
-  <span class="artist-name text-2xl tracking-widest"><strong>{{ index $r 0 }}</strong></span>
+  <span class="artist-name text-2xl text-yellow-300 tracking-widest"><strong>{{ index $r 0 }}</strong></span>
   <div class="pb-4">
   <span class="track-name text-xl">{{ index $r 1 }}</span>
   <span class="label-name text-xl">[{{ index $r 2 }}]</span>
-  <button type="button" class="btn border-2 border-white font-bold py-1 px-2 sm:px-4 rounded"><a href="{{ index $r 3 }}">BUY!</a></button>
+  <button type="button" class="btn border-2 border-white font-bold py-1 px-2 sm:px-4 rounded ml-4 hover:border-yellow-300"><a href="{{ index $r 3 }}">BUY!</a></button>
   </div>
   {{ end }}
 {{ end }}

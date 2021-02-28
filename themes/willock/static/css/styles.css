@@ -1,11 +1,26 @@
 /* global */
-* {
+html {
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   color: white;
   background-color: black;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+/* articles */
+.post h1 + p,
+.post h2 + p,
+.post h3 + p,
+.post h4 + p,
+.post h5 + p,
+.post h6 + p {
+    margin-top: 5px;
+}
+
+.post p {
+    margin: 16px 0;
 }
 
 /* images */
@@ -17,26 +32,13 @@ figure figcaption {
 
 
 /* home page cards */
-.card p.card-date {
-  color: gold;
-}
-.card .card-content {
+.card-content {
   padding: 1em; 
-}
-
-/* post titling */
-time {
-    color: gold;
-}
-
-/* tracklist */
-.tracklist .artist-name {
-  color: gold;
 }
 
 /* player */
 .plyr {
-  --plyr-color-main: gold;
+  --plyr-color-main: #FCD34D;
   --plyr-audio-controls-background: black;
   --plyr-audio-control-color: #ffffff;
   --plyr-line-height: 1; 
