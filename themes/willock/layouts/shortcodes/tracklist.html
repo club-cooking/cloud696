@@ -5,10 +5,10 @@
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
   <span class="artist-name text-xl sm:text-2xl text-yellow-300 tracking-widest"><strong>{{ index $r 0 }}</strong></span>
-  <div class="pb-4 leading-loose">
-  <span class="track-name text-lg sm:text-xl">{{ index $r 1 }}</span>
-  <span class="label-name text-lg sm:text-xl">[{{ index $r 2 }}]</span>
-  <button type="button" class="btn border-2 border-white font-bold text-lg sm:text-xl py-1 px-2 sm:px-4 hover:line-through"><a href="{{ index $r 3 }}">SUPPORT</a></button>
+  <div class="pb-4 leading-loose flex space-x-4 items-center">
+  <span class="track-name text-xl sm:text-2xl">{{ index $r 1 }}</span>
+  <span class="label-name text-xl sm:text-2xl">[{{ index $r 2 }}]</span>
+  <button type="button" class="btn border-2 border-white font-bold text-xl sm:text-2xl py-1 px-2 sm:px-4 hover:line-through"><a class="align-middle" href="{{ index $r 3 }}">SUPPORT</a></button>
   </div>
   {{ end }}
 {{ end }}

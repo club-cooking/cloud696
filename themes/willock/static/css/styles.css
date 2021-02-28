@@ -6,7 +6,7 @@ html {
 body {
   color: white;
   background-color: black;
-  font-family: 'DotGothic16', sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
 /* articles */
@@ -25,7 +25,6 @@ body {
 
 /* images */
 figure figcaption {
-    font-style: italic;
     text-align: center;
     padding: 1rem;
 }
