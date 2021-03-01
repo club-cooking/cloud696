@@ -9,7 +9,7 @@
                   {{ if .Params.images }}
                   {{ with .Resources.Match .Params.images }}
                     {{ range . }}
-                      <img class="card-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                      <img class="w-full object-contain" src="{{ .RelPermalink }}" alt="{{ .Title }}">
                     {{ end }}
                     {{ end }}
                   {{ end }}
