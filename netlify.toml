@@ -13,3 +13,10 @@
 # you can lock a version of hugo for a branch-deploy (other than previews)
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.74.1"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "*"
+    Access-Control-Allow-Headers = "*"
