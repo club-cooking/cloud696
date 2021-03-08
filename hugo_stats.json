@@ -38,7 +38,6 @@
       "btn",
       "card-content",
       "card-date",
-      "card-image",
       "card-title",
       "flex",
       "flex-none",
@@ -87,6 +86,7 @@
       "w-full"
     ],
     "ids": [
+      "mp3",
       "nav",
       "player",
       "post-title"

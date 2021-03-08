@@ -2,11 +2,11 @@
     {{ if eq .Type "mix" }}
 <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
 <script>
-	const dl_url = document.getElementById('player').getAttribute('dl')
+	const dl_url = document.getElementById('player').getAttribute('download')
   const player = new Plyr('#player', {
   	controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'download'],
     urls: {
-        download: dl_url,
+        download: dl_url
     },
 });
 </script>
