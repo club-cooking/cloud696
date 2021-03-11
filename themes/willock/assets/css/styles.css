@@ -14,26 +14,6 @@ body {
   font-family: 'Teko', sans-serif;
 }
 
-/* articles */
-.post h1 + p,
-.post h2 + p,
-.post h3 + p,
-.post h4 + p,
-.post h5 + p,
-.post h6 + p {
-    margin-top: 5px;
-}
-
-.post p {
-    margin: 16px 0;
-}
-
-/* images */
-figure figcaption {
-    text-align: center;
-}
-
-
 /* home page cards */
 .card-content {
   padding: 1em; 
