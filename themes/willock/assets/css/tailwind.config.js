@@ -13,7 +13,9 @@ module.exports = {
           			},
           			a: {
           				color: theme('colors.white'),
-                  'text-decoration': 'none'
+                  '&:hover': {
+                'text-decoration': 'line-through',
+              }
           			},
           			'figure figcaption': {
           				color: theme('colors.white'),

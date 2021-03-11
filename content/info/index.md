@@ -1,5 +1,8 @@
 ---
 date: ""
+type: "info"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Global sounds and local patter out of South London. Broadcasting live on [Mixcloud](https://www.mixcloud.com/CLOUD696/) every XXX, 7--9PM.
+
+[@AlexBaiden1](https://twitter.com/AlexBaiden1) + [@ewen_](https://twitter.com/ewen_)

@@ -8,4 +8,4 @@ type: "mix"
 draft: true
 ---
 
-{{< figure src="images/featured.jpg" width="80%" caption="" >}}
+{{< figure src="images/featured.jpg" caption="" >}}

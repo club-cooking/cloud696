@@ -1,9 +1,14 @@
 {{ define "main" }}
-<article class="box-content p-4 sm:p-8">
+<div class="box-content p-4 sm:p-8">
+
+  <header>
+    <h1 class="font-bold text-4xl sm:text-5xl" id="post-title">{{ .Title }}</h1>
+    {{ partial "metadata.html" . }}
+  </header>
 
   <div class="prose prose-lg lg:prose-xl xl:prose-2xl">
     {{ .Content }}
   </div>
 
-</article>
+</div>
 {{ end }}

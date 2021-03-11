@@ -8,13 +8,13 @@ type: "mix"
 draft: true
 ---
 
-{{< figure src="images/featured.jpg" width="80%" caption="" >}}
+{{< figure src="images/featured.jpg"caption="" >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit leo quis turpis bibendum, quis rutrum odio aliquam. Pellentesque est urna, eleifend sit amet enim id, vestibulum mollis elit. Praesent sed pellentesque nisi. Mauris dapibus enim nunc, id scelerisque justo semper vel. Nulla facilisi. Suspendisse vitae iaculis risus. Maecenas tincidunt nisi id diam facilisis, vel venenatis urna placerat. Sed sit amet nunc rhoncus, sollicitudin nisl viverra, laoreet sapien. Aliquam ipsum sem, condimentum ac convallis id, egestas pretium erat. In vehicula metus eget vestibulum dictum.
 
 Duis molestie, nunc sit amet convallis varius, risus ipsum tincidunt lectus, et molestie erat erat vel nulla. Morbi hendrerit elit leo, sit amet feugiat ipsum commodo fermentum. Sed lobortis eleifend auctor. Nullam fringilla sapien in massa rhoncus malesuada. Curabitur dictum luctus mi nec volutpat. Donec sagittis arcu eu tincidunt accumsan. Phasellus ultricies enim in ipsum vulputate sollicitudin. Ut et sollicitudin odio, a viverra tellus. Sed imperdiet sem mauris, eu tincidunt arcu molestie nec. Maecenas sit amet sem ullamcorper, pharetra turpis sit amet, pulvinar sem.
 
-{{< figure src="images/featured.jpg" width="80%" caption="" >}}
+{{< figure src="images/featured.jpg" caption="" >}}
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas rutrum volutpat egestas. Phasellus ligula tellus, interdum vel egestas eu, varius at tellus. Morbi tincidunt vestibulum imperdiet. Proin vel lacinia orci. Etiam sagittis euismod augue, sed vehicula magna convallis eu. Sed eget blandit quam, nec finibus quam. Sed ultricies hendrerit ullamcorper. Vestibulum in tincidunt neque. Nulla eget pellentesque erat, a efficitur augue. Aenean egestas in mi vel ornare. Donec sapien enim, rutrum id ullamcorper ac, ullamcorper vehicula tellus.
 

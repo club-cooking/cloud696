@@ -604,7 +604,10 @@ video {
   color: #fff;
   text-decoration: underline;
   font-weight: 500;
-  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: line-through;
 }
 
 .prose strong {
@@ -32580,7 +32583,10 @@ body {
     color: #fff;
     text-decoration: underline;
     font-weight: 500;
-    text-decoration: none;
+  }
+
+  .sm\:prose a:hover {
+    text-decoration: line-through;
   }
 
   .sm\:prose strong {
@@ -64448,7 +64454,10 @@ body {
     color: #fff;
     text-decoration: underline;
     font-weight: 500;
-    text-decoration: none;
+  }
+
+  .md\:prose a:hover {
+    text-decoration: line-through;
   }
 
   .md\:prose strong {
@@ -96316,7 +96325,10 @@ body {
     color: #fff;
     text-decoration: underline;
     font-weight: 500;
-    text-decoration: none;
+  }
+
+  .lg\:prose a:hover {
+    text-decoration: line-through;
   }
 
   .lg\:prose strong {
@@ -128184,7 +128196,10 @@ body {
     color: #fff;
     text-decoration: underline;
     font-weight: 500;
-    text-decoration: none;
+  }
+
+  .xl\:prose a:hover {
+    text-decoration: line-through;
   }
 
   .xl\:prose strong {
@@ -160052,7 +160067,10 @@ body {
     color: #fff;
     text-decoration: underline;
     font-weight: 500;
-    text-decoration: none;
+  }
+
+  .\32xl\:prose a:hover {
+    text-decoration: line-through;
   }
 
   .\32xl\:prose strong {

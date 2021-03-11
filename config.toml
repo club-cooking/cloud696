@@ -4,8 +4,8 @@ languageCode = "en-gb"
 theme = "willock"
 
 [params]
-  description = "Global sounds and local patter, broadcasting from South London."
-  copyright = "Copyright © 2021 Your Name"
+  description = "Global sounds and local patter out of South London."
+  copyright = "Copyright © 2021 cloud696"
   images = ["images/logo-white.png"]
   
 [permalinks]
