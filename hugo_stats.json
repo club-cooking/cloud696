@@ -34,6 +34,8 @@
       "box-content",
       "btn",
       "card-content",
+      "duration-500",
+      "ease-in-out",
       "flex",
       "flex-none",
       "flex-wrap",
@@ -76,6 +78,7 @@
       "text-yellow-300",
       "tracking-widest",
       "tracklist",
+      "transition-all",
       "w-full",
       "xl:prose-2xl"
     ],

@@ -3,7 +3,7 @@
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
         {{ range $paginator.Pages }}  
         <div class="my-4 px-2 sm:px-4 md:w-1/3 overflow-hidden">
-          <div class="group border-2 border-white hover:opacity-50">
+          <div class="group border-2 border-white hover:opacity-50 transition-all duration-500 ease-in-out">
              <a href="{{ .Permalink }}" class="index-anchor">    
                   
                   {{ if .Params.images }}
@@ -23,4 +23,5 @@
         </div>
           {{ end }}
 </div>
+  {{ partial "pagination.html" . }}
 </div>
