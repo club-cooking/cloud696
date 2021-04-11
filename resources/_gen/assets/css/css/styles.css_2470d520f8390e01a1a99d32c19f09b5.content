@@ -32510,7 +32510,7 @@ html {
 body {
   color: white;
   background-color: black;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 /* home page cards */
@@ -32522,7 +32522,7 @@ body {
 /* player */
 
 .plyr {
-  --plyr-color-main: #FCD34D;
+  --plyr-color-main: #fcd34d;
   --plyr-audio-controls-background: black;
   --plyr-audio-control-color: #ffffff;
   --plyr-line-height: 1;
