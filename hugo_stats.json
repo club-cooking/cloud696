@@ -80,6 +80,7 @@
       "tracklist",
       "transition-all",
       "w-full",
+      "xl:prose",
       "xl:prose-2xl"
     ],
     "ids": [

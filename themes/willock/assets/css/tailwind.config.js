@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+	fontFamily: {
+		'sans': ['Teko', 'Helvetica', 'Arial', 'sans-serif']
+	},
     extend: {
     	typography: (theme) => ({
     		DEFAULT: {
