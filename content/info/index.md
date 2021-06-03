@@ -8,5 +8,3 @@ Sharing global sounds and running local patter. Made in South London. We broadca
 Who we are: [@AlexBaiden1](https://twitter.com/AlexBaiden1) + [@ewen\_](https://twitter.com/ewen_)
 
 Contact: [cloudsixninesix@gmail.com](mailto:cloudsixninesix@gmail.com)
-
-Form 696: [https://democracy.brent.gov.uk/documents/696.pdf](https://democracy.brent.gov.uk/documents/s28414/TEN%20696%20new%20form%20WITH%20696A.pdf)
