@@ -19,12 +19,6 @@ body {
 }
 
 /* player */
-.plyr {
-  --plyr-color-main: #fcd34d;
-  --plyr-audio-controls-background: black;
-  --plyr-audio-control-color: #ffffff;
-  --plyr-line-height: 1;
-  --plyr-font-smoothing: true;
-  --plyr-font-size-time: 24px;
-  border: 2px solid #c6c6c6;
+.widget-header {
+  background: black;
 }

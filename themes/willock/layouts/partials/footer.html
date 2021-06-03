@@ -1,14 +1,5 @@
     </body>
-    {{ if eq .Type "mix" }}
-<script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
-<script>
-	const dl_url = document.getElementById('player').getAttribute('download')
-  const player = new Plyr('#player', {
-  	controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'download'],
-    urls: {
-        download: dl_url
-    },
-});
-</script>
-{{ end }}
+    <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" async>
+        {"feed": "/NTSRadio/ryuichi-sakamoto-22nd-september-2017/"}
+        </script>
 </html>
