@@ -5,6 +5,7 @@ description: "A test post."
 images: porco007.jpg
 draft: false
 tags: ["foo", "bar"]
+type: "post"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

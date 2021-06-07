@@ -1,5 +1,7 @@
     </body>
     <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" async>
-        {"feed": "/NTSRadio/ryuichi-sakamoto-22nd-september-2017/"}
+    {{ range first 1 (where .Site.RegularPages "Section" "mixes") }}
+        {"feed": "/NTSRadio/{{ .Params.mix_url }}/"}
+        {{ end }}
         </script>
 </html>
