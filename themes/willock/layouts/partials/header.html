@@ -1,9 +1,12 @@
 <header class="site-header">
-  <nav class="border-b-2" id="nav">
-  	<div class="flex items-center justify-between px-4 md:px-8 py-2.5">
-  	<a class="border-2 py-1 px-2 sm:px-4 text-2xl hover:line-through" href="/">HOME</a>
-  	<img src = "{{ .Site.BaseURL }}images/logo-white.png" width="50" height="50" alt="logo"/>
-  	<a class="border-2 py-1 px-2 sm:px-4 text-2xl hover:line-through" href="/info">INFO</a>
-  	</div>
+  <nav class="flex items-center justify-between flex-wrap border-b-2 px-4 md:px-8 py-2.5" id="nav">
+  	<a class="py-1 text-2xl hover:line-through" href="/">
+		<img src = "{{ .Site.BaseURL }}images/logo-white.png" width="50" height="50" alt="logo"/>
+	</a>
+	<div class="flex space-x-2 justify-end md:w-auto">
+		<a class="border-2 py-1 px-2 sm:px-4 text-2xl hover:line-through" href="/mixes">mixes</a>
+		<a class="border-2 py-1 px-2 sm:px-4 text-2xl hover:line-through" href="/posts">posts</a>
+		<a class="border-2 py-1 px-2 sm:px-4 text-2xl hover:line-through" href="/info">info</a>
+	</div>
   </nav>
 </header>

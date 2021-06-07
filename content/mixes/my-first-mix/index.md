@@ -5,7 +5,6 @@ description: "A mix entry."
 images: images/featured.jpg
 mix_url: leila-samir-29th-may-2021
 tags: []
-type: "mix"
 draft: false
 ---
 

@@ -5,7 +5,6 @@ description: "It is yet another mix."
 images: images/featured.jpg
 mix_url: anu-2nd-june-2021
 tags: []
-type: "mix"
 draft: true
 ---
 
