@@ -2,7 +2,7 @@
 title: "My First Mix"
 date: 2021-02-07T12:30:22Z
 description: "A mix entry."
-images: images/featured.jpg
+images: https://www.cloud696.club/mixes/my-first-mix/images/featured.jpg
 mix_url: leila-samir-29th-may-2021
 tags: []
 type: "mix"
