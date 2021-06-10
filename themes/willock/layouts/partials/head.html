@@ -7,7 +7,6 @@
     {{ printf `<link rel="shortcut icon" href="%s">` ("images/favicon.ico" | relURL) | safeHTML }}
     <title>{{ .Title }}</title>
     {{ template "_internal/twitter_cards.html" . }}
-    
     {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
     {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" crossorigin="anonymous">
