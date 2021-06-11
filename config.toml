@@ -11,6 +11,7 @@ paginate = 6
   
 [permalinks]
  posts = "/:year/:month/:title/"
+ mixes = "/:year/:month/:title/"
 
  [build]
   writeStats = true
