@@ -1,4 +1,5 @@
 ---
+title: "Info"
 date: ""
 type: "info"
 ---
