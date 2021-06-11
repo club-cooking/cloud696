@@ -1,6 +1,6 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 -}}
-<ul class="flex flex-row justify-center space-x-4">
+<ul class="font-body flex flex-row justify-center space-x-4">
   {{ with $pag.First -}}
   <li class="page-item">
     <a href="{{ .URL }}" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
