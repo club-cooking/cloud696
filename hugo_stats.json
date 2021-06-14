@@ -54,6 +54,7 @@
       "justify-between",
       "justify-end",
       "leading-loose",
+      "lg:prose-lg",
       "lg:prose-xl",
       "md:flex",
       "md:px-8",
@@ -96,7 +97,8 @@
       "tracking-widest",
       "tracklist",
       "transition-all",
-      "xl:prose-2xl"
+      "xl:prose-2xl",
+      "xl:prose-xl"
     ],
     "ids": [
       "nav",
