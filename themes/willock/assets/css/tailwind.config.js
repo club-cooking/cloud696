@@ -2,7 +2,7 @@ module.exports = {
   theme: {
 	fontFamily: {
 		'display': ['Teko', 'Helvetica', 'Arial', 'sans-serif'],
-		'body': ['Hind', 'Helvetica', 'Arial', 'sans-serif']
+		'body': ['Anada Pro', 'Helvetica', 'Arial', 'serif']
 	},
     extend: {
     	typography: (theme) => ({

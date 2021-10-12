@@ -12545,7 +12545,7 @@ video {
 }
 
 .font-body {
-  font-family: Hind, Helvetica, Arial, sans-serif;
+  font-family: Anada Pro, Helvetica, Arial, serif;
 }
 
 .font-thin {
@@ -32511,7 +32511,7 @@ body {
 /* home page cards */
 
 .card-content {
-  padding: 1em;
+  padding-top: 1em;
 }
 
 /* player */
@@ -44513,7 +44513,7 @@ body {
   }
 
   .sm\:font-body {
-    font-family: Hind, Helvetica, Arial, sans-serif;
+    font-family: Anada Pro, Helvetica, Arial, serif;
   }
 
   .sm\:font-thin {
@@ -76380,7 +76380,7 @@ body {
   }
 
   .md\:font-body {
-    font-family: Hind, Helvetica, Arial, sans-serif;
+    font-family: Anada Pro, Helvetica, Arial, serif;
   }
 
   .md\:font-thin {
@@ -108247,7 +108247,7 @@ body {
   }
 
   .lg\:font-body {
-    font-family: Hind, Helvetica, Arial, sans-serif;
+    font-family: Anada Pro, Helvetica, Arial, serif;
   }
 
   .lg\:font-thin {
@@ -140114,7 +140114,7 @@ body {
   }
 
   .xl\:font-body {
-    font-family: Hind, Helvetica, Arial, sans-serif;
+    font-family: Anada Pro, Helvetica, Arial, serif;
   }
 
   .xl\:font-thin {
@@ -171981,7 +171981,7 @@ body {
   }
 
   .\32xl\:font-body {
-    font-family: Hind, Helvetica, Arial, sans-serif;
+    font-family: Anada Pro, Helvetica, Arial, serif;
   }
 
   .\32xl\:font-thin {

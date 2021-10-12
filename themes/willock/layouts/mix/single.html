@@ -1,15 +1,15 @@
 {{ define "main" }}
 <article class="box-content p-4 sm:p-8">
   <div class="pb-4">
-    <header>
-      <h1 class="font-display font-bold text-4xl sm:text-5xl align-bottom">{{ .Title }}</h1>
-      {{ partial "metadata.html" . }}
-    </header>
-    <button class="fill-current px-4 border-2" data-mixcloud-play-button="/NTSRadio/{{ .Params.mix_url }}/">
+    <button class="inline fill-current px-4" data-mixcloud-play-button="/NTSRadio/{{ .Params.mix_url }}/">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 16 16">
         <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
       </svg>
     </button>
+    <header class="inline-block items-center">
+      <h1 class="inline font-display font-bold text-4xl sm:text-5xl align-bottom">{{ .Title }}</h1>
+      {{ partial "metadata.html" . }}
+    </header>   
   </div>
   <div class="font-body prose lg:prose-lg xl:prose-xl">
     {{ .Content }}
