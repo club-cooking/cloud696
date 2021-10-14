@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
 	fontFamily: {
-		'display': ['Teko', 'Helvetica', 'Arial', 'sans-serif'],
-		'body': ['Anada Pro', 'Helvetica', 'Arial', 'serif']
+		'display': ['Andada Pro', 'Helvetica', 'Arial', 'serif'],
+		'body': ['Hind Siliguri', 'Helvetica', 'Arial', 'sans-serif']
 	},
     extend: {
     	typography: (theme) => ({
