@@ -49,10 +49,8 @@
       "h-10",
       "hover:line-through",
       "hover:opacity-50",
-      "index-anchor",
       "inline",
       "inline-block",
-      "inline-flex",
       "items-center",
       "justify-between",
       "justify-end",
@@ -83,12 +81,10 @@
       "sm:px-4",
       "sm:text-2xl",
       "sm:text-4xl",
-      "sm:text-5xl",
       "sm:text-xl",
       "space-x-4",
       "text-2xl",
       "text-3xl",
-      "text-4xl",
       "text-lg",
       "text-white",
       "text-xl",
@@ -101,8 +97,7 @@
       "xl:prose-xl"
     ],
     "ids": [
-      "nav",
-      "post-title"
+      "nav"
     ]
   }
 }
