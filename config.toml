@@ -5,7 +5,7 @@ theme = "willock"
 paginate = 6
 
 [params]
-  description = "Sharing global sounds and running local patter. Made in South London."
+  description = "Making wild combinations of local and global sounds. Broadcasted independently out of South London."
   copyright = "Copyright © 2021 cloud696"
   images = ["images/logo-black-on-white.png"]
   
