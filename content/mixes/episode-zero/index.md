@@ -13,6 +13,4 @@ draft: false
 
 "The pilot", broadcast live on 4th November 2021.
 
-[Mixcloud listing](https://www.mixcloud.com/cloud696/cloud696-episode-0-20211104-181536/)
-
 {{< tracklist "data/tracklists/2021-11-04.csv" >}}
