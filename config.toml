@@ -7,7 +7,7 @@ paginate = 6
 [params]
   description = "Sharing global sounds and running local patter. Made in South London."
   copyright = "Copyright © 2021 cloud696"
-  images = ["images/logo-white.png"]
+  images = ["images/logo-black-on-white.png"]
   
 [permalinks]
  posts = "/:year/:month/:title/"
