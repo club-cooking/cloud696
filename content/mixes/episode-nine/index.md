@@ -5,7 +5,7 @@ description: "The lost files vol. 1"
 images: images/E9-Clean.jpeg
 mix_url: episode-9-20220224-183504/
 type: "mix"
-draft: false
+draft: true
 ---
 
 ![artwork](images/featured.jpeg)
