@@ -8,7 +8,7 @@ type: "mix"
 draft: true
 ---
 
-![artwork](images/featured.jpeg)
+![artwork](images/E9-Clean.jpg)
 
 Broadcast live from South London, 24th February 2022. Solo duties for this one, filled with newbies and oldies sprinkled with some football commentary!
 
