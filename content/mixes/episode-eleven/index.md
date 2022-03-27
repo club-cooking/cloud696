@@ -1,0 +1,15 @@
+---
+title: "episode eleven"
+date: 2022-03-24
+description: "Another dose of aural goodness"
+images: images/featured.jpeg
+mix_url: episode-11-20220324-184952
+type: "mix"
+draft: false
+---
+
+![artwork](images/featured.jpeg)
+
+Broadcast live from New Cross, South London, 24th March 2022.
+
+{{< tracklist "data/tracklists/2022-03-24.csv" >}}
