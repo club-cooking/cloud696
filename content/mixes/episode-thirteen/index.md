@@ -2,7 +2,7 @@
 title: "episode thirteen"
 date: 2022-04-21
 description: "Solo dose of your fortnightly beats"
-images: featured.JPG
+images: images/featured.JPG
 mix_url: episode-13-20220421-175835
 type: "mix"
 draft: true
