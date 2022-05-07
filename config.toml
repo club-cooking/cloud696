@@ -2,7 +2,7 @@ baseURL = "https://cloud696.club/"
 title = "cloud696"
 languageCode = "en-gb"
 theme = "willock"
-paginate = 6
+paginate = 8
 
 [params]
   description = "Making wild combinations of local and global sounds in real time."
