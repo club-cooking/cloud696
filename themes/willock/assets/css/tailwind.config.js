@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
 	fontFamily: {
-		'display': ['Andada Pro', 'Helvetica', 'Arial', 'serif'],
-		'body': ['Hind Siliguri', 'Helvetica', 'Arial', 'sans-serif']
+		'display': ['Clash Grotesk', 'Helvetica', 'Arial', 'serif'],
+		'body': ['Zodiak', 'Helvetica', 'Arial', 'sans-serif']
 	},
     extend: {
     	typography: (theme) => ({

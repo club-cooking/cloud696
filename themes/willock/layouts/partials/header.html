@@ -1,13 +1,17 @@
 <header class="site-header">
-  <nav class="flex items-center justify-between border-b-2 border-t-2" id="nav">
-	  <div class="border-r-2 py-3 px-4 md:px-6">
-		<a href="/">
-			<img class="text-white" src = "{{ .Site.BaseURL }}images/logo-white-on-transparent.svg" width="50" height="50" alt="logo"/>
-		</a>
-	  </div>
-	<div class="grid grid-cols-2 font-display text-center justify-end md:w-auto">
-			<a class="border-l-2 py-5 px-4 md:px-6 text-xl sm:text-2xl hover:line-through" href="/">mixes</a>
-			<a class="border-l-2 py-5 px-4 md:px-6 text-xl sm:text-2xl hover:line-through" href="/info">info</a>
-	  </div>
+  <nav id="nav">
+	  <div class="flex items-center border-b-2 border-t-2 divide-x-2">
+		<div class="flex-1 py-3 px-4 md:px-6">
+			<a href="/">
+				<img src = "{{ .Site.BaseURL }}images/logo-white-on-transparent.svg" width="50" height="50" alt="logo"/>
+			</a>
+		  </div>
+			  <div class="flex-0 py-5 px-4 md:px-6 text-xl sm:text-2xl hover:line-through font-display font-bold">
+				<a href="/">home</a>
+			  </div>
+			  <div class="flex-0 py-5 px-4 md:px-6 text-xl sm:text-2xl hover:line-through font-display font-bold">
+				<a href="/info">info</a>
+			  </div>
+	  </div>  
   </nav>
 </header>

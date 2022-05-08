@@ -1,14 +1,20 @@
 <div class="tracklist">
-  <h2>Tracklist</h2>
+  <h2 class="font-display">Tracklist</h2>
   {{ $url := .Get 0 }}
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
-  <span class="font-display font-bold text-lg sm:text-xl text-yellow-300 tracking-widest">{{ index $r 0 }}</span>
-  <div class="pb-4 leading-loose flex space-x-4 items-center">
-  <span class="font-display text-lg sm:text-xl">{{ index $r 1 }}</span>
-  <span class="font-display text-lg sm:text-xl">[{{ index $r 2 }}]</span>
-  <button type="button" class="font-display btn border-2 border-white font-bold text-base sm:text-lg pb-1 px-2 sm:px-4"><a class="align-middle" href="{{ index $r 3 }}">support!</a></button>
+  <div class="grid grid-cols-3 whitespace-nowrap">
+    <div class="col-span-3">
+      <span class="font-bold text-lg sm:text-xl text-yellow-300 tracking-widest">{{ index $r 0 }}</span>
+    </div>
+    <div class="pb-2 leading-loose space-x-2 pb-4">
+      <span class="text-lg sm:text-xl">{{ index $r 1 }}</span>
+      <span class="text-lg sm:text-xl">[{{ index $r 2 }}]</span>
+      <button type="button" class="btn font-bold font-display border-2 border-white sm:text-lg p-1">
+        <a class="no-underline" href="{{ index $r 3 }}">support!</a>
+      </button>
+      </div>
   </div>
   {{ end }}
 {{ end }}

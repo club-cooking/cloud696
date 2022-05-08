@@ -12,7 +12,9 @@
       {{ partial "metadata.html" . }}
     </header>
   </div>
-  <button type="button" class="font-display btn border-2 border-white font-bold text-lg sm:text-xl pb-1 px-2 sm:px-4"><a class="align-middle" href="https://www.mixcloud.com/cloud696/{{ .Params.mix_url }}">mixcloud</a></button>
+  <button type="button" class="btn font-display border-2 border-white font-bold text-lg sm:text-xl p-1 sm:p-2">
+    <a class="align-middle" href="https://www.mixcloud.com/cloud696/{{ .Params.mix_url }}">mixcloud</a>
+  </button>
   <div class="font-body prose lg:prose-lg xl:prose-xl">
     {{ .Content }}
   </div>

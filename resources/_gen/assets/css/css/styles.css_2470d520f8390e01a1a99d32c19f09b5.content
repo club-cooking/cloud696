@@ -12541,11 +12541,11 @@ video {
 }
 
 .font-display {
-  font-family: Andada Pro, Helvetica, Arial, serif;
+  font-family: Clash Grotesk, Helvetica, Arial, serif;
 }
 
 .font-body {
-  font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+  font-family: Zodiak, Helvetica, Arial, sans-serif;
 }
 
 .font-thin {
@@ -44509,11 +44509,11 @@ body {
   }
 
   .sm\:font-display {
-    font-family: Andada Pro, Helvetica, Arial, serif;
+    font-family: Clash Grotesk, Helvetica, Arial, serif;
   }
 
   .sm\:font-body {
-    font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+    font-family: Zodiak, Helvetica, Arial, sans-serif;
   }
 
   .sm\:font-thin {
@@ -76376,11 +76376,11 @@ body {
   }
 
   .md\:font-display {
-    font-family: Andada Pro, Helvetica, Arial, serif;
+    font-family: Clash Grotesk, Helvetica, Arial, serif;
   }
 
   .md\:font-body {
-    font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+    font-family: Zodiak, Helvetica, Arial, sans-serif;
   }
 
   .md\:font-thin {
@@ -108243,11 +108243,11 @@ body {
   }
 
   .lg\:font-display {
-    font-family: Andada Pro, Helvetica, Arial, serif;
+    font-family: Clash Grotesk, Helvetica, Arial, serif;
   }
 
   .lg\:font-body {
-    font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+    font-family: Zodiak, Helvetica, Arial, sans-serif;
   }
 
   .lg\:font-thin {
@@ -140110,11 +140110,11 @@ body {
   }
 
   .xl\:font-display {
-    font-family: Andada Pro, Helvetica, Arial, serif;
+    font-family: Clash Grotesk, Helvetica, Arial, serif;
   }
 
   .xl\:font-body {
-    font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+    font-family: Zodiak, Helvetica, Arial, sans-serif;
   }
 
   .xl\:font-thin {
@@ -171977,11 +171977,11 @@ body {
   }
 
   .\32xl\:font-display {
-    font-family: Andada Pro, Helvetica, Arial, serif;
+    font-family: Clash Grotesk, Helvetica, Arial, serif;
   }
 
   .\32xl\:font-body {
-    font-family: Hind Siliguri, Helvetica, Arial, sans-serif;
+    font-family: Zodiak, Helvetica, Arial, sans-serif;
   }
 
   .\32xl\:font-thin {
