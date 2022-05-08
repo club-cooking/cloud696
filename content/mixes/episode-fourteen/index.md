@@ -5,7 +5,7 @@ description: "High-octane, no respite kind of show"
 images: images/featured.jpeg
 mix_url: episode-14-20220505-170813
 type: "mix"
-draft: true
+draft: false
 ---
 
 ![artwork](images/featured.jpeg)
