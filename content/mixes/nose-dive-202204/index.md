@@ -1,5 +1,5 @@
 ---
-title: "Nose Dive, April '22"
+title: "w/ Nose Dive, april '22"
 date: 2022-05-08
 description: "'pon guest mix duties for Nose Dive over at loose fm"
 images: images/featured.jpeg
