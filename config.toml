@@ -5,7 +5,7 @@ theme = "willock"
 paginate = 8
 
 [params]
-  description = "Making wild combinations of local and global sounds in real time."
+  description = "two friends making wild combinations of local and global sounds"
   copyright = "Copyright © 2022 cloud696"
   images = ["images/logo-black-on-white.png"]
   
