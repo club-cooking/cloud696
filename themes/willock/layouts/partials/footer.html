@@ -1,7 +1,7 @@
     </body>
     <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" async>
     {{ range first 1 (where .Site.RegularPages "Section" "mixes") }}
-        {"feed": "/cloud696/{{ .Params.mix_url }}/", "light": true}
+        {"feed": "{{ .Params.mix_url }}", "light": true}
         {{ end }}
         </script>
 </html>

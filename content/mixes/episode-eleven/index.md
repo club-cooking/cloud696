@@ -3,7 +3,7 @@ title: "episode eleven"
 date: 2022-03-24
 description: "Another dose of aural goodness"
 images: images/featured.jpeg
-mix_url: episode-11-20220324-184952
+mix_url: /cloud696/episode-11-20220324-184952
 type: "mix"
 draft: false
 ---

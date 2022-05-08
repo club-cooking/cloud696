@@ -3,7 +3,7 @@ title: "episode six"
 date: 2022-01-13
 description: "First show of 2k22."
 images: images/featured.png
-mix_url: episode-6-20220113-184612
+mix_url: /cloud696/episode-6-20220113-184612
 type: "mix"
 draft: false
 ---

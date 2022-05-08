@@ -3,7 +3,7 @@ title: "episode eight"
 date: 2022-02-10
 description: "The lost files vol. 1"
 images: images/featured.jpeg
-mix_url: episode-8-20220210-185659
+mix_url: /cloud696/episode-8-20220210-185659
 type: "mix"
 draft: false
 ---

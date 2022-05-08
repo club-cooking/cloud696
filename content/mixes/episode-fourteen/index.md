@@ -3,7 +3,7 @@ title: "episode fourteen"
 date: 2022-05-05
 description: "High-octane, no respite kind of show"
 images: images/featured.jpeg
-mix_url: episode-14-20220505-170813
+mix_url: /cloud696/episode-14-20220505-170813/
 type: "mix"
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "episode one"
 date: 2021-11-04
 description: "The pilot."
 images: images/featured.jpg
-mix_url: cloud696-episode-0-20211104-181536
+mix_url: /cloud696/cloud696-episode-0-20211104-181536/
 type: "mix"
 draft: false
 ---

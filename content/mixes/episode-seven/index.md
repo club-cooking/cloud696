@@ -3,7 +3,7 @@ title: "episode seven"
 date: 2022-01-27
 description: "Seeing off Jan."
 images: images/featured.png
-mix_url: episode-7-20220127-194447
+mix_url: /cloud696/episode-7-20220127-194447
 type: "mix"
 draft: false
 ---
