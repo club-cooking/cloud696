@@ -3,7 +3,7 @@
       <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "mixes") }}
             {{ range $paginator.Pages }}  
-                <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out" data-mixcloud-play-button="/cloud696/{{ .Params.mix_url }}/">
+                <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out" data-mixcloud-play-button="{{ .Params.mix_url }}">
                       {{ with .Resources.Match .Params.images }}
                         {{ range . }}
                         {{ $photo := .Resize "400x400" }}

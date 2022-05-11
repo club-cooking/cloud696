@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="box-content p-4 sm:p-8">
   <div class="pb-4">
-    <button class="inline-block align-top fill-current pr-4" data-mixcloud-play-button="/cloud696/{{ .Params.mix_url }}/">
+    <button class="inline-block align-top fill-current pr-4" data-mixcloud-play-button="{{ .Params.mix_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -13,7 +13,7 @@
     </header>
   </div>
   <button type="button" class="btn font-display border-2 border-white font-bold text-lg sm:text-xl p-1 sm:p-2">
-    <a class="align-middle" href="https://www.mixcloud.com/cloud696/{{ .Params.mix_url }}">mixcloud</a>
+    <a class="align-middle" href="https://www.mixcloud.com{{ .Params.mix_url }}">mixcloud</a>
   </button>
   <div class="font-body prose lg:prose-lg xl:prose-xl">
     {{ .Content }}
