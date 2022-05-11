@@ -3,7 +3,7 @@ title: "episode ten"
 date: 2022-03-10
 description: "A Born Free Records special"
 images: images/featured.png
-mix_url: /cloud696/episode-10-20220310-183238
+mix_url: /cloud696/episode-10-20220310-183238/
 type: "mix"
 draft: false
 ---
