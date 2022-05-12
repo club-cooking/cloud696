@@ -1,12 +1,12 @@
 baseURL = "https://cloud696.club/"
-title = "cloud696"
+title = "Cloud 696"
 languageCode = "en-gb"
 theme = "willock"
 paginate = 8
 
 [params]
-  description = "two friends making wild combinations of local and global sounds"
-  copyright = "Copyright © 2022 cloud696"
+  description = "two friends stumbling on wild combinations of local and global sounds"
+  copyright = "Copyright © 2022 Cloud 696"
   images = ["images/logo-black-on-white.png"]
   
 [permalinks]
