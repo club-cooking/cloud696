@@ -5,7 +5,7 @@ theme = "willock"
 paginate = 8
 
 [params]
-  description = "two friends stumbling on wild combinations of local and global sounds"
+  description = "chasing the perfect blend"
   copyright = "Copyright © 2022 Cloud 696"
   images = ["images/logo-black-on-white.png"]
   
