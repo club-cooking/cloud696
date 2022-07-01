@@ -1,5 +1,5 @@
 ---
-title: "AAJA, June 2022"
+title: "AAJA, june 2022"
 date: 2022-06-10
 images: images/featured.jpeg
 mix_url: /Aajamusic/cloud696-aaja-channel-1-10-06-22/
