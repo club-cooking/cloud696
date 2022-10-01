@@ -4,9 +4,7 @@ date: ""
 type: "info"
 ---
 
-
-
-Two friends and DJ accomplices who stay chasing the perfect blend.
+2 mates, 1 cruddy DJ supergroup, on a quest to run massive tunes and pronounce artist names flawlessly.
 
 Right now, we broadcast twice a month:
 
