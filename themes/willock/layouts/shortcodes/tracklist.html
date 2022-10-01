@@ -6,13 +6,13 @@
   {{ if ge $i 1 }}
   <div class="grid grid-cols-3 whitespace-nowrap">
     <div class="col-span-3">
-      <span class="font-bold text-yellow-300 tracking-widest">{{ index $r 0 }}</span>
+      <span class="font-bold text-purple-500 tracking-widest">{{ index $r 0 }}</span>
     </div>
     <div class="pb-2 leading-loose space-x-2 pb-4">
       <span>{{ index $r 1 }}</span>
       <span>[{{ index $r 2 }}]</span>
       <button type="button" class="btn font-bold font-display border-2 border-white sm:text-lg p-1">
-        <a class="no-underline" href="{{ index $r 3 }}">support!</a>
+        <a href="{{ index $r 3 }}">support !</a>
       </button>
       </div>
   </div>
