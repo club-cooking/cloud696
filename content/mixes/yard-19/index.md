@@ -2,7 +2,7 @@
 title: "Yard #19"
 slug: yard-19
 date: 2022-09-29
-images: images/featured.jpeg
+images: images/featured.jpg
 mix_url: /cloud696/yard-19-20220929-174425/
 type: "mix"
 draft: false
