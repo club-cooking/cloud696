@@ -7,7 +7,7 @@ type: "mix"
 draft: true
 ---
 
-![artwork](images/featured.png)
+![artwork](images/featured.jpeg)
 
 Kept things nice and loose in the first half letting alot of the records play out. Exploring more non-clubby bits including some downtempo, soundscape and head bop beats. Later in the second half we get into the mix. Wasn't our finest mix section, but we move! Hope you enjoyed or found something new!
 
