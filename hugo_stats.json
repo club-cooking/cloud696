@@ -22,6 +22,7 @@
       "path",
       "script",
       "span",
+      "strong",
       "svg",
       "title",
       "ul"
@@ -111,7 +112,19 @@
       "xl:prose-xl"
     ],
     "ids": [
-      "nav"
+      "best-track-found-in-the-wild-alex",
+      "cruddiest-techno-track-most-likely-to-disturb-ewens-spirit-alex",
+      "fav-of-2k22-alex",
+      "fav-of-2k22-ewen",
+      "most-certified-least-bait-edit-or-bootleg-ewen",
+      "most-unexpected-left-turn-by-an-artist-ewen",
+      "nav",
+      "ots-and-pans-track-most-likely-to-get-clanged-ewen",
+      "pots-and-pans-track-most-likely-to-get-clanged-ewen",
+      "remix-that-youre-heading-to-over-the-original",
+      "remix-that-youre-heading-to-over-the-original-ewen",
+      "rip-the-reload-aka-the-one-that-needed-a-reload-ewen",
+      "the-try-outs-aka-best-compilation-effort-alex"
     ]
   }
 }
