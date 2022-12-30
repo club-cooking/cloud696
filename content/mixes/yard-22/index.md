@@ -5,7 +5,7 @@ date: 2022-12-29
 images: images/featured.jpg
 mix_url: /cloud696/yard-22-eoy-awards-spesh-20221229-184537/
 type: "mix"
-draft: true
+draft: false
 ---
 
 ![artwork](images/featured.jpg)
