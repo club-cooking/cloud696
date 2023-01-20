@@ -2,7 +2,7 @@
 title: "AAJA, January 2023"
 date: 2023-01-13
 images: images/featured.jpeg
-mix_url: /Aajamusic/cloud-696-eoy-spesh-aaja-channel-1-09-12-22/
+mix_url: /Aajamusic/cloud-696-aaja-channel-1-13-01-23/
 type: "mix"
 draft: true
 ---
