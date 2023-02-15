@@ -4,7 +4,7 @@ date: 2023-02-10
 images: images/featured.jpeg
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-10-02-23/
 type: "mix"
-draft: true
+draft: false
 ---
 
 ![artwork](images/featured.jpeg)
