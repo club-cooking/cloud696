@@ -1,14 +1,15 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 -}}
 <ul class="font-display flex flex-row justify-center space-x-4">
-  {{ with $pag.First -}}
-  <li class="page-item">
-    <a href="{{ .URL }}" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  {{ end -}}
-  <li class="page-item{{ if not $pag.HasPrev }} disabled{{ end }}">
-    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
+  <li>
+    <button class="page-item{{ if not $pag.HasPrev }} disabled{{ end }} h-10 hover:bg-white hover:text-black">
+      <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous">
+        <span aria-hidden="true">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>
+        </span>
+      </a>
+  </button>
+</li>
   {{- $ellipsed := false -}}
   {{- $shouldEllipse := false -}}
   {{- range $pag.Pagers -}}
@@ -24,22 +25,20 @@
     {{- $ellipsed = true -}}
   {{- end -}}
   {{- if $showNumber }}
-  <li class="page-item{{ if eq . $pag }} border-2 border-white py-1 px-2 sm:px-4{{ end }}">
+  <li><button class="page-item{{ if eq . $pag }} border-2 border-white py-1 px-2 sm:px-4{{ end }} h-10 hover:bg-white hover:text-black">
     <a class="page-link font-bold" href="{{ .URL }}">{{ .PageNumber }}</a>
+    </button>
   </li>
   {{- else if $shouldEllipse }}
-  <li class="page-item disabled">
+  <li><button class="page-item disabled">
     <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
+    </button>
   </li>
   {{- end -}}
   {{- end }}
-  <li class="page-item{{ if not $pag.HasNext }} disabled{{ end }}">
-    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  <li><button class="page-item{{ if not $pag.HasNext }} disabled{{ end }} h-10 hover:bg-white hover:text-black">
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path></svg></span></a>
+  </button>
   </li>
-  {{- with $pag.Last }}
-  <li class="page-item">
-    <a href="{{ .URL }}" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-  {{- end }}
 </ul>
 {{ end }}
