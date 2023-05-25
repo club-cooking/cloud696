@@ -7,7 +7,7 @@ type: "mix"
 draft: true
 ---
 
-![artwork](images/featured.jpg)
+![artwork](images/featured.png)
 
 With both of us fightining some sort of illnesses, we kept the talking to a mininum and went for a straight b2b for the full two hours playing tracks meant for the club or the yard show. Wasnt expecting much from the show but felt it was a solid effort given circumstances! It was also probably the least ill we felt during those two hours whilst our minds were distracted/lost in the music/fun.  
 
