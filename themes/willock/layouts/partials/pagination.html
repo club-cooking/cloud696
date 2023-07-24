@@ -2,7 +2,7 @@
 {{ if gt $pag.TotalPages 1 -}}
 <ul class="font-display flex flex-row justify-center space-x-4">
   <li>
-    <button class="page-item{{ if not $pag.HasPrev }} disabled{{ end }} h-10 hover:bg-white hover:text-black">
+    <button class="page-item{{ if not $pag.HasPrev }} disabled{{ end }} py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
       <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous">
         <span aria-hidden="true">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>
@@ -25,18 +25,18 @@
     {{- $ellipsed = true -}}
   {{- end -}}
   {{- if $showNumber }}
-  <li><button class="page-item{{ if eq . $pag }} border-2 border-white py-1 px-2 sm:px-4{{ end }} h-10 hover:bg-white hover:text-black">
+  <li><button class="page-item{{ if eq . $pag }} border-2 border-white {{ end }} py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
     <a class="page-link font-bold" href="{{ .URL }}">{{ .PageNumber }}</a>
     </button>
   </li>
   {{- else if $shouldEllipse }}
-  <li><button class="page-item disabled">
+  <li><button class="page-item disabled py-1 px-2 sm:px-4">
     <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
     </button>
   </li>
   {{- end -}}
   {{- end }}
-  <li><button class="page-item{{ if not $pag.HasNext }} disabled{{ end }} h-10 hover:bg-white hover:text-black">
+  <li><button class="page-item{{ if not $pag.HasNext }} disabled{{ end }} py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
     <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path></svg></span></a>
   </button>
   </li>
