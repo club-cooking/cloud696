@@ -10,8 +10,11 @@ paginate = 8
   images = ["images/logo-black-on-white.png"]
   
 [permalinks]
- posts = "/:year/:month/:slug/"
- mixes = "/:year/:month/:slug/"
+  posts = "/:year/:month/:slug/"
+  mixes = "/:year/:month/:slug/"
 
- [build]
+[build]
   writeStats = true
+
+[markup.goldmark.renderer]
+  unsafe= true

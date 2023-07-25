@@ -19,6 +19,13 @@ body {
 }
 
 /* player */
-.widget-header {
-  background: black;
+:root {
+  --plyr-color-main: white;
+  --plyr-audio-controls-background: black;
+  --plyr-audio-control-color: white;
+  --plyr-audio-control-color-hover: black;
+  --plyr-menu-color: black;
+  --plyr-menu-item-arrow-color: white;
+  --plyr-tooltip-color: black;
+  --plyr-font-family: 'Clash Grotesk', sans-serif;
 }
