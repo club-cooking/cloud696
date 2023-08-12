@@ -7,7 +7,7 @@ type: "mix"
 draft: true
 ---
 
-![artwork](images/featured.png)
+![artwork](images/featured.jpg)
 
 Packed heat on both usbs and also wax for the first time too for this show! Was feeling the track selections for this show playing bits from Buttecho, & Tris, Jessy Lanza, 
 Tyrone Washington & J Dila in the first hour. Bear with the technicals and sleepy moments from us in the first hour and if you keep with it 
