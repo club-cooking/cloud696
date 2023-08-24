@@ -4,18 +4,14 @@
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
-  <div class="grid grid-cols-3 whitespace-nowrap">
-    <div class="col-span-3">
-      <span class="font-bold text-purple-500 tracking-widest">{{ index $r 0 }}</span>
-    </div>
-    <div class="pb-2 leading-loose space-x-2 pb-4">
+    <span class="font-bold text-purple-500">{{ index $r 0 }}</span>
+    <div class="text-sm sm:text-base space-x-1 pb-4">
       <span>{{ index $r 1 }}</span>
       <span>[{{ index $r 2 }}]</span>
-      <button type="button" class="btn border-2 border-white font-bold font-display sm:text-lg p-1">
-        <a href="{{ index $r 3 }}">support !</a>
+      <button type="button" class="btn border-2 border-white font-bold font-display p-1">
+        <a class="align-middle" href="{{ index $r 3 }}">support !</a>
       </button>
       </div>
-  </div>
   {{ end }}
 {{ end }}
 </div>
