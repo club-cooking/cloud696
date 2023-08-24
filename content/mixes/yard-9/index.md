@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from South London, 24th February 2022. Solo duties for this one, filled with newbies and oldies sprinkled with some football commentary!
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E09.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-02-24.csv" >}}

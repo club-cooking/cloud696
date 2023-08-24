@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from New Cross, South London, 16th December 2021.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E04.mp3" >}}
+
 {{< tracklist "data/tracklists/2021-12-16.csv" >}}

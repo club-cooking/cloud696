@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from South London, 30th December 2021.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E05.mp3" >}}
+
 {{< tracklist "data/tracklists/2021-12-31.csv" >}}

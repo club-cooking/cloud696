@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from South London, 2nd December 2021.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E03.mp3" >}}
+
 {{< tracklist "data/tracklists/2021-12-02.csv" >}}

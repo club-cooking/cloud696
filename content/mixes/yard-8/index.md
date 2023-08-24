@@ -13,4 +13,7 @@ draft: false
 
 Broadcast live from South London, 10th February 2022. We lost the first hour or so of the recording, so that's with the streaming gods now :(
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E08.mp3" >}}
+
+
 {{< tracklist "data/tracklists/2022-02-10.csv" >}}

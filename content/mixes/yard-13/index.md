@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from South London, 21st April 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E13.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-04-21.csv" >}}
