@@ -1,9 +1,0 @@
-    </body>
-    <div class="p-2">
-        <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" async>
-            {{ range first 1 (where .Site.RegularPages "Section" "mixes") }}
-                {"feed": "{{ .Params.mix_url }}", "light": true}
-                {{ end }}
-                </script>
-    </div>
-</html>
