@@ -14,4 +14,6 @@ It's a PlayStation 2 special, trying something a bit left to toast our 20th sill
 
 Broadcast live from home in South London, 27th October 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E20.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-10-27.csv" >}}

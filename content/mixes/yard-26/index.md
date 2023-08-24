@@ -15,4 +15,6 @@ Enjoy the ting!
 
 Broadcast live from home in South London, 29th June 2023.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E26.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-06-29.csv" >}}

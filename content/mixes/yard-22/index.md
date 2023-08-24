@@ -14,6 +14,8 @@ It's the underground electronic music award show that nobody asked for, but you'
 
 Broadcast live from home in South London, 29th December 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E22.mp3" >}}
+
 ### "pots and pans" track most likely to get clanged [Ewen]
 
 Nominees:

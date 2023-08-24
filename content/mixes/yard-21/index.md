@@ -14,4 +14,6 @@ Technically our one-year anniversary show...inside you will find some spacious t
 
 Broadcast live from home in South London, 24th November 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E21.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-11-24.csv" >}}
