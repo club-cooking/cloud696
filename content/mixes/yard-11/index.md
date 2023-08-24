@@ -13,4 +13,6 @@ draft: false
 
 Broadcast live from New Cross, South London, 24th March 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E11.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-03-24.csv" >}}
