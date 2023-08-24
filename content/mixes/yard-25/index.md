@@ -14,4 +14,6 @@ Bringing up a quarter-century of home broadcasts with a culture clash for the ag
 
 Broadcast live from home in South London, 26th April 2023. Intro clip from [Todd Edwards @ Time & Envy, Romford (2003)](https://youtu.be/1UxY5LonBIc).
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E25.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-04-26.csv" >}}

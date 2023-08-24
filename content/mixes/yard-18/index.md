@@ -12,4 +12,6 @@ draft: false
 
 Broadcast live from South London, 25th August 2022. Mic fixed for this one and another goodun to end August on! Mixcloud cut for a moment but it didn't stop us!
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E18.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-08-25.csv" >}}

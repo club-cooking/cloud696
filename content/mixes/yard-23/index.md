@@ -14,4 +14,6 @@ We took January off so this was our first home recording of the year. The tech g
 
 Broadcast live from home in South London, 23rd February 2023.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E23.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-02-23.csv" >}}

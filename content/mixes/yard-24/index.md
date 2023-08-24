@@ -14,4 +14,6 @@ We thought we'd see in spring with a trip through UKG and it's mutations. Some o
 
 Broadcast live from home in South London, 30th March 2023.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E24.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-03-30.csv" >}}

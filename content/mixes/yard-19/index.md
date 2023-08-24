@@ -12,4 +12,6 @@ draft: false
 
 Broadcast live from @ the yard in South London, 29th September 2022. After a while apart and feeling refreshed turned out to be a stellar and fun show!
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E19.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-09-29.csv" >}}
