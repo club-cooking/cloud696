@@ -11,4 +11,6 @@ draft: false
 
 Back again for our third show from our new monthly residency @ AAJA Radio. Broadcast live from the Snakepit in Deptford, 12th August 2022!
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202208.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-08-12.csv" >}}

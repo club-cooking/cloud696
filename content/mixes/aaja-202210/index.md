@@ -13,4 +13,6 @@ Enjoyed this one! A real game of two halves. Hard to pin down what the first hou
 
 Broadcast live from the Snakepit, Deptford, 14th October 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202210.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-10-14.csv" >}}
