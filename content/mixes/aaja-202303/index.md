@@ -14,4 +14,6 @@ two-hour slice of radio dedicated to contemporary (2000ish to present) protest m
 Both overt and abstract, anthems and album cuts, aggressive and peaceful. 
 Anything that speaks with feeling, on some level, to dissatisfaction with the status quo on our cruddy little island
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202303.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-03-10.csv" >}}
