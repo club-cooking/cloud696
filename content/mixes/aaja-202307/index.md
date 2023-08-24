@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Kept it laid back simply 3 for 3 of the bits we were listening to this month. Bits from K-lone, Loraine James, Speakers Corner Quartet, Gaika & Hus! Enjoy soz for the late upload!
 
