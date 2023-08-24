@@ -5,7 +5,7 @@
   {{ range $i, $r := getCSV $sep $url }}
   {{ if ge $i 1 }}
     <span class="font-bold text-purple-500">{{ index $r 0 }}</span>
-    <div class="text-sm sm:text-base space-x-1 pb-4">
+    <div class="text-sm sm:text-lg space-x-1 pb-4">
       <span>{{ index $r 1 }}</span>
       <span>[{{ index $r 2 }}]</span>
       <button type="button" class="btn border-2 border-white font-bold font-display p-1">
