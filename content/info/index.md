@@ -4,9 +4,9 @@ date: ""
 type: "info"
 ---
 
-2 mates, 1 cruddy DJ supergroup, on a quest to run massive tunes and pronounce artist names flawlessly.
+2 mates, 1 cruddy DJ supergroup, on a quest to pair massive tunes and pronounce artist names flawlessly.
 
-Right now, we broadcast twice a month:
+Right now, we broadcast live twice a month:
 
 - [AAJA](https://aajamusic.com/residents/cloud-696) on the second Friday of every month @ 1-3 PM (UK time)
 - [Mixcloud](https://www.mixcloud.com/cloud696/) on the last Thursday of every month @ 7--9PM (UK time)
