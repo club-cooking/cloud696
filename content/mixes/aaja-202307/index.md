@@ -9,6 +9,6 @@ draft: false
 
 ![artwork](images/featured.jpg)
 
-Kept it laid back smply 3 for 3 of the bits we were listening to this month. Bits from K-lone, Loraine James, Speakers Corner Quartet, Gaika & Hus! Enjoy soz for the late upload!
- 
+Kept it laid back simply 3 for 3 of the bits we were listening to this month. Bits from K-lone, Loraine James, Speakers Corner Quartet, Gaika & Hus! Enjoy soz for the late upload!
+
 {{< tracklist "data/tracklists/2023-07-14.csv" >}}
