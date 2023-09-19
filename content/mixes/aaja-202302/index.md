@@ -14,4 +14,6 @@ tracks both new and old play. Moved into some shacky mixing around the halfway p
 
 Broadcast live from the ever active Snakepit, Deptford, 10th February 2023.
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202302.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-02-10.csv" >}}

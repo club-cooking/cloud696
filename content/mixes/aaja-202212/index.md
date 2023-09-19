@@ -14,4 +14,6 @@ According to Ewen some of these were toasted with a sermon
 
 Broadcast live from the (ice cold) Snakepit, Deptford, 12th December 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202212.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-12-09.csv" >}}

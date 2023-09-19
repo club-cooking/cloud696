@@ -13,4 +13,6 @@ Kept things nice and loose in the first half letting alot of the records play ou
 
 Broadcast live from the Snakepit, Deptford, 11th November 2022.
 
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202211.mp3" >}}
+
 {{< tracklist "data/tracklists/2022-11-11.csv" >}}

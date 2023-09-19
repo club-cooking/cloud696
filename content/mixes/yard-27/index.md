@@ -14,4 +14,6 @@ This broadcast was sponsored by Uncle Wray and an unspecified clear spirit Alex 
 
 Broadcast live from home in South London, 31st August 2023.
 
+{{< player "https://storage.googleapis.com/mix-archives/yard/E27.mp3" >}}
+
 {{< tracklist "data/tracklists/2023-08-31.csv" >}}
