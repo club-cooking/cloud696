@@ -9,8 +9,10 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Broadcast live from South London, 2nd December 2021.
+
+{{< player "https://storage.googleapis.com/mix-archives/yard/E03.mp3" >}}
 
 {{< tracklist "data/tracklists/2021-12-02.csv" >}}

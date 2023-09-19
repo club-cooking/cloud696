@@ -25,12 +25,12 @@
     {{- $ellipsed = true -}}
   {{- end -}}
   {{- if $showNumber }}
-  <li><button class="page-item{{ if eq . $pag }} border-2 border-white {{ end }} py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
-    <a class="page-link font-bold" href="{{ .URL }}">{{ .PageNumber }}</a>
-    </button>
+  <li><a class="page-link" href="{{ .URL }}"><button class="page-item{{ if eq . $pag }} font-bold border-2 border-white {{ end }} py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
+    {{ .PageNumber }}
+    </button></a>
   </li>
   {{- else if $shouldEllipse }}
-  <li><button class="page-item disabled py-1 px-2 sm:px-4 h-10 hover:bg-white hover:text-black">
+  <li><button class="page-item disabled py-1 px-2 sm:px-4 h-10">
     <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
     </button>
   </li>

@@ -7,12 +7,14 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Back with the first show of the year! First bit were us just easing into the show, then
 Ewen takes things into the upper echelon with some fresh Jungle before Alex takng things 
 down abit after. Not the tightest of shows, but was fun!
 
 Broadcast live from the Snakepit, Deptford, 13th January 2023.
+
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202301.mp3" >}}
 
 {{< tracklist "data/tracklists/2023-01-13.csv" >}}

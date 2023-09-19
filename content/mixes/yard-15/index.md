@@ -8,8 +8,10 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Broadcast live from South London, 19th May 2022. Mess of a show, clangs galore and clipping. Apologies!
+
+{{< player "https://storage.googleapis.com/mix-archives/yard/E15.mp3" >}}
 
 {{< tracklist "data/tracklists/2022-05-19.csv" >}}

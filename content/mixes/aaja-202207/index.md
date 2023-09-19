@@ -7,8 +7,10 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 The second show from our new monthly residency @ AAJA Radio. Broadcast live from the Snakepit in Deptford, 8th July 2022.
+
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202207.mp3" >}}
 
 {{< tracklist "data/tracklists/2022-07-08.csv" >}}

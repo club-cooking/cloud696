@@ -9,8 +9,10 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Broadcast live from South London, 5th May 2022.
+
+{{< player "https://storage.googleapis.com/mix-archives/yard/E14.mp3" >}}
 
 {{< tracklist "data/tracklists/2022-05-05.csv" >}}

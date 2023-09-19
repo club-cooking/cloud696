@@ -8,8 +8,10 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Broadcast live from @ the yard in South London, 29th September 2022. After a while apart and feeling refreshed turned out to be a stellar and fun show!
+
+{{< player "https://storage.googleapis.com/mix-archives/yard/E19.mp3" >}}
 
 {{< tracklist "data/tracklists/2022-09-29.csv" >}}
