@@ -9,7 +9,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Broadcast live from South London, 18th November 2021.
 

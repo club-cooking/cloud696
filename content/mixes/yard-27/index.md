@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 This broadcast was sponsored by Uncle Wray and an unspecified clear spirit Alex brought back from Cyprus. Restraint was the explicit theme of this session. Leaving space for the imagination, adding by subtracting and all that. We treated this one as a warm up of sorts for our appearance at the inaugural Creekside festival over the following weekend. I reckon you could stick this on at a mature pre-lash or use as a 10k run companion. Versatile sounds and inane conversation sprinkles.
 

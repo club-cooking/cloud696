@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Back with the first show of the year! First bit were us just easing into the show, then
 Ewen takes things into the upper echelon with some fresh Jungle before Alex takng things 

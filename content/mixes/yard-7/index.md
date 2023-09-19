@@ -9,7 +9,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.png)
+{{< imgprocess "images/featured.png" Resize "500x" >}}
 
 Broadcast live from South London, 27th January 2022. One of the decks was f\*\*ked for the majority. Saw it home with a run of classic house cuts.
 

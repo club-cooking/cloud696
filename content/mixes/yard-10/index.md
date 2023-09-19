@@ -9,7 +9,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.png)
+{{< imgprocess "images/featured.png" Resize "500x" >}}
 
 Broadcast live from South London, 10th March 2022. A Born Free Records special in the first hour, [go support](http://bornfreerecords.org/) :]
 

@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Packed heat on both usbs and also wax for the first time too for this show! Was feeling the track selections for this show playing bits from Buttechno & Tris, Jessy Lanza, Tyrone Washington & J Dila in the first hour. Bear with the technicals and sleepy moments from us in the first hour and if you keep with it we get into the mix serving up some house goodness from Kareem Ali, Gerd & Larry Heard.
 

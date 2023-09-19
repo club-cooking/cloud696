@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Like the majority of us, we are quite disgruntled (understatement) with whats going on in the UK atm. This show  was a
 two-hour slice of radio dedicated to contemporary (2000ish to present) protest music made in the UK. 

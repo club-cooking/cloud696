@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 It's the underground electronic music award show that nobody asked for, but you're getting it anyway. Peep inside to hear us run through an onslaught of prestigious, nonsense awards. We ran over a bit 'cos we were gushing over the top bins music a bit too heavy. Read on for the show notes (AKA award spoilers!).
 

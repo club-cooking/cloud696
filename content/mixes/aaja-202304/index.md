@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 A sort of unplanned sequel to the disgruntled protest show, April was almsost two hours of moody vibes and angsty beats. Plenty of of hissy, scuzzy, smudgy tunes to get us in our emo feels. Don't get it twised we gave the people some 140 beats at the end to get through their Fridat afernoon, before signign out on some words from the late great Jah Shaka <3
 

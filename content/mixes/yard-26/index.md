@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpg)
+{{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
 Alex finally got hold of some new 7" woofers and this episode is their official yard christening. We rolled thru indulgent villalobos remixes, modern + dusty midwestern house, next generation M-plant rollers, sugary vocal garage, spacious techno with dubstep sensibilities from Bristol + beyond, yet another toe-curling Karenn joint and funky flavours from London town.
 Enjoy the ting!

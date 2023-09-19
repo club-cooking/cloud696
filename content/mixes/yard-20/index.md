@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.JPG)
+{{< imgprocess "images/featured.JPG" Resize "500x" >}}
 
 It's a PlayStation 2 special, trying something a bit left to toast our 20th silly little show. For the first hour, listen to us try and make sense of a jumble of video-game music and relive our golden (?) years. In the second, rattling off club cuts at pace.
 

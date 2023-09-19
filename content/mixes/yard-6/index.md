@@ -9,7 +9,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.png)
+{{< imgprocess "images/featured.png" Resize "500x" >}}
 
 Broadcast live from South London, 13th January 2022.
 

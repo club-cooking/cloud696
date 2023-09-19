@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.png)
+{{< imgprocess "images/featured.png" Resize "500x" >}}
 
 Enjoyed this one! A real game of two halves. Hard to pin down what the first hour was. Bits of wistful Aussie dreampop, some meditative dub, melodic jungle on a ragga tip. We worked the decks for most of the second hour, settling into a series of drum work-outs then bringing things back down with some new-school R&B crooning.
 

@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.JPG)
+{{< imgprocess "images/featured.JPG" Resize "500x" >}}
 
 Technically our one-year anniversary show...inside you will find some spacious techno excursions, Chicago house offshoots, dark room dubstep and wavey UK Funky interpretations.
 

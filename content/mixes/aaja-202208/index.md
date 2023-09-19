@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Back again for our third show from our new monthly residency @ AAJA Radio. Broadcast live from the Snakepit in Deptford, 12th August 2022!
 

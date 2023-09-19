@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Solo duties this month whilst Ewen was off on the first of many stag duties. Keeping things chilled for the first hour letting 
 tracks both new and old play. Moved into some shacky mixing around the halfway point before ending on some Dub/Reggae to sooth the soul.

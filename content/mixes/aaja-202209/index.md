@@ -7,7 +7,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 I (Ewen) was rolling solo for this one while Alex was living his best life at [Draaimolen](https://draaimolen.nu/). Lot's of soul, letting the records play, then flitting about club styles in the 140-150 range to close.
 The bar was busy in the second hour so I go a bit quiet. It got HECTIC in the last half hour, so I mix sloppyyyy but we move! Broadcast live from the Snakepit, Deptford, 9th September 2022.

@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 We headed over the river to loose FM and niced Nose Dive with a guest mix and tidy b2b2b. The USB link fully conked out on one CDJ right before we got on but we got it cracking in the end.
 

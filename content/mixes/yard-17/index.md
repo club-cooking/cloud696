@@ -8,7 +8,7 @@ type: "mix"
 draft: false
 ---
 
-![artwork](images/featured.jpeg)
+{{< imgprocess "images/featured.jpeg" Resize "500x" >}}
 
 Broadcast live from South London, 28th July 2022. Turns out the mic wasn't on, don't watch the awkward quite bits. Blends come correct, tho!
 
