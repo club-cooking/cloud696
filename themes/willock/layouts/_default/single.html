@@ -1,13 +1,13 @@
 {{ define "main" }}
-<article class="box-content p-4 sm:p-8">
-  <div class="inline-flex">
+<div class="flex justify-center">
+<article class="prose lg:prose-lg xl:prose-xl p-4 sm:p-8">
     <header>
-      <h1 class="font-display font-bold text-3xl sm:text-4xl">{{ .Title }}</h1>
+      <h1 class="font-display">{{ .Title }}</h1>
     </div>
       {{ partial "metadata.html" . }}
     </header>
-  <div class="font-body prose lg:prose-lg xl:prose-xl">
+  <div class="font-body">
     {{ .Content }}
-  </div>
 </article>
+</div>
 {{ end }}
