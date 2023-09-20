@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="p-2 sm:p-6">
-      <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-6">
+      <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "mixes") }}
             {{ range $paginator.Pages }}  
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
@@ -14,7 +14,7 @@
                         {{ end }}
                         {{ end }}
                       </a>
-                      <div class="card-content">
+                      <div class="pt-2">
                         <a href="{{ .Permalink }}" class="hover:line-through">    
                         <h3 class="font-display text-xl sm:text-2xl font-bold">{{ .Title | truncate 25 }}</h3>
                       </a>

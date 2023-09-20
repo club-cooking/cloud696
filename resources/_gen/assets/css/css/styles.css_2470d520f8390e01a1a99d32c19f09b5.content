@@ -33212,12 +33212,6 @@ body {
   background-color: black;
 }
 
-/* home page cards */
-
-.card-content {
-  padding-top: 1em;
-}
-
 /* player */
 
 :root {
