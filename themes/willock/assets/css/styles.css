@@ -27,5 +27,5 @@ body {
   --plyr-menu-color: black;
   --plyr-menu-item-arrow-color: white;
   --plyr-tooltip-color: black;
-  --plyr-font-family: 'Clash Grotesk', sans-serif;
+  --plyr-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;;
 }

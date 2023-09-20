@@ -1,5 +1,5 @@
 <div class="tracklist">
-  <h2 class="font-display">Tracklist</h2>
+  <h3 class="font-display">Tracklist</h3>
   {{ $url := .Get 0 }}
   {{ $sep := "," }}
   {{ range $i, $r := getCSV $sep $url }}
@@ -8,9 +8,11 @@
     <div class="text-sm sm:text-lg space-x-1 pb-4">
       <span>{{ index $r 1 }}</span>
       <span>[{{ index $r 2 }}]</span>
-      <button type="button" class="btn border-2 border-white font-bold font-display p-1">
-        <a class="align-middle" href="{{ index $r 3 }}">support !</a>
+      <a class="align-middle" href="{{ index $r 3 }}">
+      <button type="button" class="btn border-2 border-white font-bold font-display text-sm lg:text-base p-1 hover:bg-white hover:text-black">
+        support !
       </button>
+    </a>
       </div>
   {{ end }}
 {{ end }}

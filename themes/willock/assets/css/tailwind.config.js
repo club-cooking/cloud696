@@ -1,8 +1,16 @@
 module.exports = {
   theme: {
 	fontFamily: {
-		'display': ['Clash Grotesk', 'Helvetica', 'Arial', 'serif'],
-		'body': ['Zodiak', 'Helvetica', 'Arial', 'sans-serif']
+		'display': [
+			'-apple-system', 'BlinkMacSystemFont', 'avenir next', 'avenir',
+			'segoe ui', 'helvetica neue', 'helvetica', 'Cantarell', 'Ubuntu',
+			'roboto', 'noto', 'arial', 'sans-serif'
+		],
+		'body': [
+			'Iowan Old Style', 'Apple Garamond', 'Baskerville', 'Times New Roman',
+			'Droid Serif', 'Times', 'Source Serif Pro', 'serif', 'Apple Color Emoji',
+			'Segoe UI Emoji', 'Segoe UI Symbol'
+		]
 	},
     extend: {
     	typography: (theme) => ({
