@@ -1,8 +1,9 @@
 {{ define "main" }}
-<article class="box-content p-4 sm:p-8">
-  <div class="pb-4">
-    <header class="inline-block items-center">
-      <h1 class="inline font-display font-bold text-3xl sm:text-4xl align-bottom">{{ .Title }}</h1>
+<div class="flex justify-center">
+<article class="prose lg:prose-lg xl:prose-xl prose-h3:text-purple-500 p-4 sm:p-8">
+  <div class="pb-4 text-center">
+    <header>
+      <h1 class="inline font-display">{{ .Title }}</h1>
       {{ partial "metadata.html" . }}
     </header>
   </div>
@@ -13,9 +14,10 @@
   </button>
 </a>
   {{ end }}
-  <div class="font-body prose lg:prose-lg xl:prose-xl">
+  <div class="font-body">
     {{ .Content }}
   </div>
   <script type="module" src="https://cdn.jsdelivr.net/npm/vidstack/dist/cdn/prod.js"></script>
 </article>
+</div>
 {{ end }}
