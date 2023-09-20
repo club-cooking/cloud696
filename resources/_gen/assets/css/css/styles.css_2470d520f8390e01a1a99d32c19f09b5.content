@@ -23670,11 +23670,11 @@ video {
 }
 
 .font-display {
-  font-family: Clash Grotesk, Helvetica, Arial, serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 .font-body {
-  font-family: Zodiak, Helvetica, Arial, sans-serif;
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 .text-xs {
@@ -33228,7 +33228,7 @@ body {
   --plyr-menu-color: black;
   --plyr-menu-item-arrow-color: white;
   --plyr-tooltip-color: black;
-  --plyr-font-family: 'Clash Grotesk', sans-serif;
+  --plyr-font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 @media (min-width: 640px) {
@@ -56259,11 +56259,11 @@ body {
   }
 
   .sm\:font-display {
-    font-family: Clash Grotesk, Helvetica, Arial, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   }
 
   .sm\:font-body {
-    font-family: Zodiak, Helvetica, Arial, sans-serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 
   .sm\:text-xs {
@@ -88806,11 +88806,11 @@ body {
   }
 
   .md\:font-display {
-    font-family: Clash Grotesk, Helvetica, Arial, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   }
 
   .md\:font-body {
-    font-family: Zodiak, Helvetica, Arial, sans-serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 
   .md\:text-xs {
@@ -121353,11 +121353,11 @@ body {
   }
 
   .lg\:font-display {
-    font-family: Clash Grotesk, Helvetica, Arial, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   }
 
   .lg\:font-body {
-    font-family: Zodiak, Helvetica, Arial, sans-serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 
   .lg\:text-xs {
@@ -153900,11 +153900,11 @@ body {
   }
 
   .xl\:font-display {
-    font-family: Clash Grotesk, Helvetica, Arial, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   }
 
   .xl\:font-body {
-    font-family: Zodiak, Helvetica, Arial, sans-serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 
   .xl\:text-xs {
@@ -186447,11 +186447,11 @@ body {
   }
 
   .\32xl\:font-display {
-    font-family: Clash Grotesk, Helvetica, Arial, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   }
 
   .\32xl\:font-body {
-    font-family: Zodiak, Helvetica, Arial, sans-serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 
   .\32xl\:text-xs {
