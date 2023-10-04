@@ -13,7 +13,7 @@ Back in the radio booth again just under a week after Creekside Fest. Big-up to 
 who danced with us at the new AAJA venue defo felt some good energy!
 
 Was the hottest day in the booth this year, sweatpatches galore, stayed off the mixing until the last 15 otherwise 
-probably wouldnt have lasted the two hours! Kicked off with some Dub to pure the soul before spinning new Gaika, Tirzah, Frisco & Knucks to name a handful. Was a tight show so defo one you shoudld run up again!
+probably wouldnt have lasted the two hours! Kicked off with some Dub to pure the soul before spinning new Gaika, Tirzah, Frisco & Knucks to name a handful. Was a tight show so defo one you should run up again!
 
 Broadcast live from the snakepit greenhouse SE8!
 
