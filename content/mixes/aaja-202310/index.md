@@ -19,3 +19,7 @@ Recorded live straight from SE8!
 
 {{< player "https://storage.googleapis.com/mix-archives/aaja/202310.mp3" >}}
 
+{{< tracklist "data/tracklists/2023-10-13.csv" >}}
+
+
+
