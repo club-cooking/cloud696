@@ -5,7 +5,7 @@ date: 2023-11-30
 images: images/featured.jpg
 mix_url: /cloud696/yard-30-20231130-185722/
 type: "mix"
-draft: true
+draft: false
 ---
 
 {{< imgprocess "images/featured.jpg" Resize "500x" >}}
