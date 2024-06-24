@@ -14,6 +14,6 @@ Some spaced out electronic sounds before moving into some dub and a weighty bass
 
 Broadcast live from the Aaja Basement, Deptford, 25 April 2024.
 
-{{< player "https://storage.googleapis.com/mix-archives/aaja/202403.mp3" >}}
+{{< player "https://storage.googleapis.com/mix-archives/aaja/202404.mp3" >}}
 
 {{< tracklist "data/tracklists/2024-04-25.csv" >}}
