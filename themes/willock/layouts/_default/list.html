@@ -1,28 +1,40 @@
 {{ define "main" }}
-<div class="p-2 sm:p-6">
-      <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "mixes") }}
-            {{ range $paginator.Pages }}  
+<div class="flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-12 pb-12 pl-4 pr-4">
+  <div class="flex w-full justify-center">
+    <div class="relative w-full max-w-7xl">
+  <p class="font-display text-xl sm:text-2xl font-bold text-left"> Radio</p>
+      <div class="grid gap-y-12 md:grid-cols-3 gap-x-6 lg:gap-x-8 mt-12">
+        {{ range ( where .Site.RegularPages "Section" "mixes" | first 3 ) }} 
+        <article class="border-b border-current pb-10 max-w-3xl">
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
                   <a href="{{ .Permalink }}">
                       {{ with .Resources.Match .Params.images }}
                         {{ range . }}
-                        {{ $photo := .Resize "400x400" }}
+                        {{ $photo := .Resize "410x410" }}
                         {{ with $photo }}
                           <img class="object-contain" src="{{ .RelPermalink }}" alt="{{ .Title }}" >
                         {{ end }}
                         {{ end }}
                         {{ end }}
                       </a>
-                      <div class="pt-2">
-                        <a href="{{ .Permalink }}" class="hover:line-through">    
+                      <div class="h-0 w-full mb-6 pt-2/3 relative overflow-hidden">
+                        <a href="{{ .Permalink }}"> 
+                        </div>   
                         <h3 class="font-display text-xl sm:text-2xl font-bold">{{ .Title | truncate 25 }}</h3>
                       </a>
-                      </div>
                     </div>
+                  </article>
           {{ end }}
         </div>
     </div>
-    {{ partial "pagination.html" . }}
+  </div>
+  <div class="mt-10 overflow-x-hidden">
+  <div class="flex flex-wrap items-center -mx-2 justify-end">
+    <a class="my-2 mx-2 lg:whitespace-nowrap hover:line-through" href="/mixes">
+      <span>See all radio</span>
+    </a>
+  </div>
+  </div>
+  </div>
   </div>
 {{ end }}
