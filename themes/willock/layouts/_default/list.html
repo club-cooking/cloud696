@@ -4,7 +4,7 @@
     <div class="relative w-full max-w-7xl">
   <p class="font-display text-xl sm:text-2xl font-bold text-left"> Radio</p>
       <div class="grid gap-y-12 md:grid-cols-3 gap-x-6 lg:gap-x-8 mt-12">
-        {{ range ( where .Site.RegularPages "Section" "mixes" | first 3 ) }} 
+        {{ range ( where .Site.RegularPages "Section" "radio" | first 3 ) }} 
         <article class="border-b border-current pb-10 max-w-3xl">
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
                   <a href="{{ .Permalink }}">
@@ -30,7 +30,7 @@
   </div>
   <div class="mt-10 overflow-x-hidden">
   <div class="flex flex-wrap items-center -mx-2 justify-end">
-    <a class="my-2 mx-2 lg:whitespace-nowrap hover:line-through" href="/mixes">
+    <a class="my-2 mx-2 lg:whitespace-nowrap hover:line-through" href="/radio">
       <span>See all radio</span>
     </a>
   </div>

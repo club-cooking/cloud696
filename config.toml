@@ -11,7 +11,7 @@ paginate = 8
   
 [permalinks]
   posts = "/:year/:month/:slug/"
-  mixes = "/:year/:month/:slug/"
+  radio = "/:year/:month/:slug/"
 
 [build]
   writeStats = true
