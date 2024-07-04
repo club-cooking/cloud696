@@ -10,8 +10,8 @@ paginate = 8
   images = ["images/logo-black-on-white.png"]
   
 [permalinks]
-  posts = "/:year/:month/:slug/"
-  radio = "/:year/:month/:slug/"
+  posts = "/posts/:slug/"
+  radio = "/radio/:slug/"
 
 [build]
   writeStats = true
