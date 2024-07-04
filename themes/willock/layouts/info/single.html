@@ -1,7 +1,15 @@
 {{ define "main" }}
-<div class="flex justify-center">
-<article class="font-body prose lg:prose-lg xl:prose-xl p-4 sm:p-8">
-    {{ .Content }}
-</article>
+<div class="flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-16 pb-12 pl-4 pr-4">
+    <div class="flex w-full justify-center">
+        <div class="relative w-full max-w-7xl">
+            <div class="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8">
+                <div class="flex-1 w-full">
+                    <article class="font-body prose lg:prose-lg xl:prose-xl text-left">
+                        {{ .Content }}
+                    </article>
+                </div>
+            </div>
+</div>
+</div>
 </div>
 {{ end }}
