@@ -4,7 +4,8 @@
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "radio") }}
             {{ range $paginator.Pages }}  
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
-                  <a href="{{ .Permalink }}">
+                  <div class="border-solid border-2">
+                    <a href="{{ .Permalink }}">
                       {{ with .Resources.Match .Params.images }}
                         {{ range . }}
                         {{ $photo := .Resize "400x400" }}
@@ -14,6 +15,7 @@
                         {{ end }}
                         {{ end }}
                       </a>
+                  </div>         
                       <div class="pt-2">
                         <a href="{{ .Permalink }}" class="hover:line-through">    
                         <h3 class="font-display text-xl sm:text-2xl font-bold">{{ .Title | truncate 25 }}</h3>

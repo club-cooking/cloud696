@@ -5,9 +5,10 @@
   <p class="font-display text-xl sm:text-2xl font-bold text-left"> Radio</p>
       <div class="grid gap-y-12 md:grid-cols-3 gap-x-6 lg:gap-x-8 mt-12">
         {{ range ( where .Site.RegularPages "Section" "radio" | first 3 ) }} 
-        <article class="border-b border-current pb-10 max-w-3xl">
+        <div class="border-b border-current pb-10 max-w-3xl">
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
-                  <a href="{{ .Permalink }}">
+                  <div class="border-solid border-2">
+                    <a href="{{ .Permalink }}">
                       {{ with .Resources.Match .Params.images }}
                         {{ range . }}
                         {{ $photo := .Resize "410x410" }}
@@ -17,13 +18,14 @@
                         {{ end }}
                         {{ end }}
                       </a>
+                  </div>
                       <div class="h-0 w-full mb-6 pt-2/3 relative overflow-hidden">
                         <a href="{{ .Permalink }}"> 
                         </div>   
                         <h3 class="font-display text-xl sm:text-2xl font-bold">{{ .Title | truncate 25 }}</h3>
                       </a>
                     </div>
-                  </article>
+                  </div>
           {{ end }}
         </div>
     </div>
