@@ -13,7 +13,7 @@
                         {{ range . }}
                         {{ $photo := .Resize "410x410" }}
                         {{ with $photo }}
-                          <img class="object-contain" src="{{ .RelPermalink }}" alt="{{ .Title }}" >
+                          <img src="{{ .RelPermalink }}" alt="{{ .Title }}" >
                         {{ end }}
                         {{ end }}
                         {{ end }}
