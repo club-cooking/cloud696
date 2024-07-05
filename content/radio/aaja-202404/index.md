@@ -4,6 +4,8 @@ date: 2024-04-25
 images: images/featured.jpg
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-28-04-25/
 draft: false
+categories:
+- Aaja
 ---
 
 {{< imgprocess "images/featured.jpg" Resize "500x" >}}

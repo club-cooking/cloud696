@@ -5,6 +5,8 @@ date: 2024-04-11
 images: images/featured.jpg
 mix_url: /cloud696/yard-33-20240411-175717/
 draft: false
+categories:
+- Yard
 ---
 
 {{< imgprocess "images/featured.jpg" Resize "500x" >}}
