@@ -4,6 +4,11 @@ languageCode = "en-gb"
 theme = "willock"
 paginate = 8
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  station = 'station'
+
 [params]
   description = "clanging but charming since 2k21"
   copyright = "Copyright © 2022 Cloud 696"

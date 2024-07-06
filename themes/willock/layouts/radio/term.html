@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="p-4 sm:p-6">
-  {{ partial "categories.html" . }}
+  {{ partial "station.html" . }}
   {{ $paginator := .Paginate .Pages }}
   {{ partial "carousel.html" (dict "context" . "paginator" $paginator) }}
   {{ partial "pagination.html" . }}
