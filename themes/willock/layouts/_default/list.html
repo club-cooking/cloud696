@@ -1,5 +1,17 @@
 {{ define "main" }}
 <div class="p-2 sm:p-6">
+  <ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
       <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" .Section) }}
             {{ range $paginator.Pages }}  
@@ -8,7 +20,7 @@
                     <a href="{{ .Permalink }}">
                       {{ with .Resources.Match .Params.images }}
                         {{ range . }}
-                        {{ $photo := .Resize "400x400" }}
+                        {{ $photo := .Resize "500x500" }}
                         {{ with $photo }}
                           <img class="object-contain" src="{{ .RelPermalink }}" alt="{{ .Title }}" >
                         {{ end }}
