@@ -4,14 +4,19 @@ languageCode = "en-gb"
 theme = "willock"
 paginate = 8
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  station = 'station'
+
 [params]
   description = "clanging but charming since 2k21"
   copyright = "Copyright © 2022 Cloud 696"
   images = ["images/logo-black-on-white.png"]
   
 [permalinks]
-  posts = "/:year/:month/:slug/"
-  mixes = "/:year/:month/:slug/"
+  posts = "/posts/:slug/"
+  radio = "/radio/:slug/"
 
 [build]
   writeStats = true

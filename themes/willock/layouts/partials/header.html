@@ -1,14 +1,20 @@
-<header class="site-header">
-  <nav id="nav">
-	  <div class="flex items-center border-white border-b-2">
-		<div class="flex-1 py-2 px-4 md:px-6">
+<header class="site-header relative border-white border-b">
+  <nav id="nav" class="mx-auto max-w-full">
+	  <div class="flex items-stretch relative">
+		<div class="py-2 px-4 md:px-6 flex items-center">
 			<a href="/">
 				<img src = "{{ .Site.BaseURL }}images/logo-white-on-transparent.svg" width="50" height="50" alt="logo"/>
 			</a>
 		  </div>
-			  <div class="flex-0 py-2 px-4 md:px-6 text-xl sm:text-2xl hover:line-through font-display font-bold">
-				<a href="/info">info</a>
-			  </div>
+		  <div class="lg:flex ml-auto"></div>
+		  <ul class="lg:flex border-l border-white divide-x divide-white">
+			<li class="inline-flex items-stretch">
+				<a class="text-xl sm:text-2xl hover:bg-white hover:text-black p-4 font-display" href="/radio">radio</a>
+			</li>
+			<li class="inline-flex items-stretch">
+				<a class="text-xl sm:text-2xl hover:bg-white hover:text-black p-4 font-display" href="/info">info</a>
+			</li>
+		  </ul>
 	  </div>  
   </nav>
 </header>
