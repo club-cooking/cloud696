@@ -3,6 +3,7 @@ title: "AAJA, November 2022"
 date: 2022-11-11
 images: images/featured.jpeg
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-11-11-22/
+station: Aaja
 draft: false
 ---
 

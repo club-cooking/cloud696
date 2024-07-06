@@ -4,6 +4,7 @@ slug: yard-32
 date: 2024-03-14
 images: images/featured.jpg
 mix_url: /cloud696/yard-32-20240314-184515/
+station: Yard
 draft: false
 ---
 

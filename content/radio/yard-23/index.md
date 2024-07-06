@@ -4,6 +4,7 @@ slug: yard-23
 date: 2023-02-23
 images: images/featured.jpg
 mix_url: /cloud696/yard-23/
+station: Yard
 draft: false
 ---
 

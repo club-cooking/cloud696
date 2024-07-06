@@ -5,6 +5,7 @@ slug: yard-1
 description: "The pilot."
 images: images/featured.jpg
 mix_url: /cloud696/cloud696-episode-0-20211104-181536/
+station: Yard
 draft: false
 ---
 

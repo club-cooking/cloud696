@@ -5,6 +5,7 @@ date: 2022-02-10
 description: "The lost files vol. 1"
 images: images/featured.jpeg
 mix_url: /cloud696/episode-8-20220210-185659/
+station: Yard
 draft: false
 ---
 
