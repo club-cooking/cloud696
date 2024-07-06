@@ -1,3 +1,5 @@
-{{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-<h3 class="font-display" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</h3>
+<div class="uppercase mb-4 sm:mb-6">
+    {{ $dateTime := .PublishDate.Format "02-01-2006" }}
+    <time datetime="{{ $dateTime }}">{{ $dateTime }}</time>
+</div>
+

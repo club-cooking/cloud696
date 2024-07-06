@@ -1,23 +1,24 @@
 {{ define "main" }}
-<div class="flex justify-center">
-<article class="prose lg:prose-lg xl:prose-xl p-4 sm:p-8">
-  <div class="pb-4 text-center">
-    <header>
-      <h1 class="inline font-display">{{ .Title }}</h1>
-      {{ partial "metadata.html" . }}
-    </header>
+<div class="flex justify-center max-w-5xl mx-auto">
+<article class="prose lg:prose-lg xl:prose-xl px-4 py-14 lg:py-20">
+  <div class="max-w-5xl mx-auto">
+      <header class="mb-10 sm:mb-14">
+          {{ partial "metadata.html" . }}
+        <h1 class="inline font-display">{{ .Title }}</h1>
+      </header>
+    {{ if isset .Params "mix_url" }}
+    <a class="align-middle" href="https://www.mixcloud.com{{ .Params.mix_url }}">
+    <button type="button" class="btn hidden font-display border-2 border-white font-bold text-sm lg:text-base p-1 hover:bg-white hover:text-black">
+      mixcloud
+    </button>
+  </a>
+    {{ end }}
+    <div class="font-body">
+      {{ .Content }}
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/vidstack/dist/cdn/prod.js"></script>
+  </article>
   </div>
-  {{ if isset .Params "mix_url" }}
-  <a class="align-middle" href="https://www.mixcloud.com{{ .Params.mix_url }}">
-  <button type="button" class="btn hidden font-display border-2 border-white font-bold text-sm lg:text-base p-1 hover:bg-white hover:text-black">
-    mixcloud
-  </button>
-</a>
-  {{ end }}
-  <div class="font-body">
-    {{ .Content }}
   </div>
-  <script type="module" src="https://cdn.jsdelivr.net/npm/vidstack/dist/cdn/prod.js"></script>
-</article>
-</div>
+  
 {{ end }}
