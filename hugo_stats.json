@@ -102,6 +102,7 @@
       "lg:space-x-8",
       "lg:space-y-0",
       "lg:text-base",
+      "lg:text-lg",
       "lg:whitespace-nowrap",
       "max-w-3xl",
       "max-w-5xl",
