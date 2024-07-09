@@ -5,7 +5,7 @@ date: 2024-06-13
 images: images/featured.jpg
 mix_url: /cloud696/yard-33-20240411-175717/
 station: Yard
-draft: false
+draft: true
 ---
 
 {{< imgprocess "images/featured.jpg" Resize "500x" >}}
