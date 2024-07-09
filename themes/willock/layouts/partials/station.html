@@ -1,13 +1,13 @@
 <div class="py-4 sm:py-6">
     <ul class="font-display flex flex-row">
       <li><a href="{{ if eq .Section "station" }}{{ .Site.BaseURL }}radio/{{ else }}{{ .Site.BaseURL }}{{ .Section }}/{{ end }}">
-        <button type="button" class="btn border border-white font-bold font-display text-sm lg:text-base p-1 hover:bg-white hover:text-black">
+        <button type="button" class="btn border border-white font-bold font-display lg:text-lg p-2 hover:bg-white hover:text-black">
           all
         </button>
       </a></li>
       {{ range $name, $taxonomy := .Site.Taxonomies.station }}
         <li><a href="{{ "/station/" | relLangURL }}{{ $name | urlize }}">
-          <button type="button" class="btn border border-white font-bold font-display text-sm lg:text-base p-1 hover:bg-white hover:text-black">
+          <button type="button" class="btn border border-white font-bold font-display lg:text-lg p-2 hover:bg-white hover:text-black">
             {{ $name }}
           </button>
         </a></li>
