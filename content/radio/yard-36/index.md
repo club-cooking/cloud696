@@ -10,9 +10,9 @@ draft: true
 
 {{< imgprocess "images/featured.jpg" Resize "500x" >}}
 
-...
+A symbolic goodbye to the original Yard spot. What better way to close up shop than an old-fashioned, heads down 'n' hypnotic journey through the electronic deep. Minimal, sparse and stuffy numbers in the house and techno mould formulate first. Classic drum workouts and proto rave wafters soon drift into play, making way to Brazilian dread and Den Haag-via-Kampala bubbling house, before rounding off with some outsider garage grooves. Big up Alex for serving up a precise, holy and sensational stew for the gang beforehand. Some will say this is the secret sauce that powers such levels.
 
-Broadcast live from the Aaja Snakepit, 13th June 2024.
+Broadcast live from the yard in South London, 15th August 2024.
 
 {{< player "https://storage.googleapis.com/mix-archives/yard/E36.mp3" >}}
 
