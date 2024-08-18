@@ -4,10 +4,7 @@ date: ""
 type: "info"
 ---
 
-Cruddy DJ supergroup for the heads. We make two radio shows every month:
-
-- On [Mixcloud](https://www.mixcloud.com/cloud696/), second Thursday @ 7-9 PM (UK time)
-- On [Aaja](https://aajamusic.com/residents/cloud-696), fourth Thursday @ 4-6 PM (UK time)
+Cruddy DJ supergroup for the heads. We make a radio show every month that goes out live on [Mixcloud](https://www.mixcloud.com/cloud696/), second Thursday @ 7-9 PM (UK time).
 
 subscribe to [the newsletter](https://mailchi.mp/227057cc10c0/669ho5u4u4) // follow us on insta [@cloudsixninesix](https://www.instagram.com/cloudsixninesix/) // mail us [cloudsixninesix@gmail.com](mailto:cloudsixninesix@gmail.com)
 
