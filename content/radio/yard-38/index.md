@@ -10,7 +10,7 @@ draft: false
 
 {{< imgprocess "images/featured.png" Resize "500x" >}}
 
-A little bit rusty but full of heart. The boys are back with the full spectrum of techno and those weirdo, confuser bits in-between.
+A little bit rusty but full of heart. The boys are back with the full spectrum of techno and those weirdo, confuser bits in-between. The first track got cut off cos I forgot to hit record in time, but peep the t/l below for that.
 
 Broadcast live from the yard in South London, 9th October 2024.
 
