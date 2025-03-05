@@ -1,9 +1,12 @@
 <div class="tracklist">
   <h3 class="font-display">Tracklist</h3>
   {{ $url := .Get 0 }}
-  {{ $sep := "," }}
-  {{ range $i, $r := getCSV $sep $url }}
-  {{ if ge $i 1 }}
+  {{ with resources.Get $url }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else }}
+      {{ $data := .Content | transform.Unmarshal "csv" }}
+      {{ range $i, $r := after 1 $data }}
     <span class="font-bold text-purple-500">{{ index $r 0 }}</span>
     <div class="text-sm sm:text-lg space-x-1 pb-4">
       <span>{{ index $r 1 }}</span>
@@ -14,6 +17,7 @@
       </button>
     </a>
       </div>
+      {{ end }}
   {{ end }}
 {{ end }}
 </div>
