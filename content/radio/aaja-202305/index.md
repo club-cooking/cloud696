@@ -1,7 +1,7 @@
 ---
 title: "AAJA, May 2023"
 date: 2023-05-12
-images: images/featured.png
+images: ["images/featured.png"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-12-05-23/
 station: Aaja
 draft: false

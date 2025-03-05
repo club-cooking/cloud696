@@ -1,7 +1,7 @@
 ---
 title: "AAJA, March 2023"
 date: 2023-03-10
-images: images/featured.jpeg
+images: ["images/featured.jpeg"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-10-03-23/
 station: Aaja
 draft: false
