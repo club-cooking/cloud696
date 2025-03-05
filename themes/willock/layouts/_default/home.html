@@ -9,7 +9,7 @@
                 <div class="relative hover:opacity-50 transition-all duration-500 ease-in-out">
                   <div class="border-solid border-2">
                     <a href="{{ .Permalink }}">
-                      {{ with .Resources.Match .Params.images }}
+                      {{ with .Resources.Match .Params.cover }}
                         {{ range . }}
                         {{ $photo := .Resize "500x500" }}
                         {{ with $photo }}

@@ -3,6 +3,7 @@ title: "Yard #8"
 slug: yard-8
 date: 2022-02-10
 description: "The lost files vol. 1"
+cover: images/featured.jpeg
 images: ["images/featured.jpeg"]
 mix_url: /cloud696/episode-8-20220210-185659/
 station: Yard

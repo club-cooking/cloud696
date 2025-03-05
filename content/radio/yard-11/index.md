@@ -3,6 +3,7 @@ title: "Yard #11"
 slug: yard-11
 date: 2022-03-24
 description: "Another dose of aural goodness"
+cover: images/featured.jpeg
 images: ["images/featured.jpeg"]
 mix_url: /cloud696/episode-11-20220324-184952/
 station: Yard

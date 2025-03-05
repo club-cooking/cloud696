@@ -1,6 +1,7 @@
 ---
 title: "AAJA, November 2023"
 date: 2023-11-10
+cover: images/featured.jpg
 images: ["images/featured.jpg"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-10-11-23/
 station: Aaja

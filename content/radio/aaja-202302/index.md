@@ -1,6 +1,7 @@
 ---
 title: "AAJA, February 2023"
 date: 2023-02-10
+cover: images/featured.jpeg
 images: ["images/featured.jpeg"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-10-02-23/
 station: Aaja

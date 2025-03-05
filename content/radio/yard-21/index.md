@@ -2,6 +2,7 @@
 title: "Yard #21"
 slug: yard-21
 date: 2022-11-24
+cover: images/featured.jpg
 images: ["images/featured.jpg"]
 mix_url: /cloud696/yard-21-20221124-190024/
 station: Yard

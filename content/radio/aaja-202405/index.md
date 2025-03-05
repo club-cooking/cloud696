@@ -1,6 +1,7 @@
 ---
 title: "AAJA, May 2024"
 date: 2024-05-23
+cover: images/clean.png
 images: ["images/clean.png"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-23-05-24/
 station: Aaja

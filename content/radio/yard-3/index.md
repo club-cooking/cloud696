@@ -3,6 +3,7 @@ title: "Yard #3"
 slug: yard-3
 date: 2021-12-02
 description: "Cloud696 is back with its third show, and it's a solo show this week!"
+cover: images/featured.jpg
 images: ["images/featured.jpg"]
 mix_url: /cloud696/cloud696-episode-2-20211202-182659/
 station: Yard

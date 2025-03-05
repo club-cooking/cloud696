@@ -1,6 +1,7 @@
 ---
 title: "AAJA, June 2023"
 date: 2023-06-09
+cover: images/featured.png
 images: ["images/featured.png"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-09-06-23/
 station: Aaja
