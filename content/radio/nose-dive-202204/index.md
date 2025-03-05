@@ -2,7 +2,7 @@
 title: "w/ Nose Dive, april '22"
 date: 2022-05-08
 description: "'pon guest mix duties for Nose Dive over at loose fm"
-images: images/featured.jpeg
+images: ["images/featured.jpeg"]
 mix_url: /loosefm/nose-dive-w-cloud-696-8-apr-22/
 station: Guest
 draft: false
