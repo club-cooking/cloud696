@@ -1,23 +1,20 @@
 <div class="tracklist">
   <h3 class="font-display">Tracklist</h3>
-  {{ $url := .Get 0 }}
-  {{ with resources.Get $url }}
-    {{ with .Err }}
-      {{ errorf "%s" . }}
-    {{ else }}
-      {{ $data := .Content | transform.Unmarshal "csv" }}
-      {{ range $i, $r := after 1 $data }}
-    <span class="font-bold text-purple-500">{{ index $r 0 }}</span>
+  {{ $file := .Get 0 }}
+  {{ $csv := readFile $file }} 
+  {{ $data := $csv | transform.Unmarshal}}
+  {{ range $index, $row := $data }}
+  {{ if ne $index 0 }}
+    <span class="font-bold text-purple-500">{{ index $row 0 }}</span>
     <div class="text-sm sm:text-lg space-x-1 pb-4">
-      <span>{{ index $r 1 }}</span>
-      <span>[{{ index $r 2 }}]</span>
-      <a class="align-middle" href="{{ index $r 3 }}">
+      <span>{{ index $row 1 }}</span>
+      <span>[{{ index $row 2 }}]</span>
+      <a class="align-middle" href="{{ index $row 3 }}" target="_blank">
       <button type="button" class="btn border-2 border-white font-bold font-display text-sm lg:text-base p-1 hover:bg-white hover:text-black">
         support !
       </button>
     </a>
       </div>
       {{ end }}
-  {{ end }}
-{{ end }}
+      {{ end }}
 </div>
