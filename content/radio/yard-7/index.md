@@ -3,7 +3,8 @@ title: "Yard #7"
 slug: yard-7
 date: 2022-01-27
 description: "Seeing off Jan."
-images: images/featured.png
+cover: images/featured.png
+images: ["images/featured.png"]
 mix_url: /cloud696/episode-7-20220127-194447/
 station: Yard
 draft: false

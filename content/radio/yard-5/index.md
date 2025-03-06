@@ -3,7 +3,8 @@ title: "Yard #5"
 slug: yard-5
 date: 2021-12-30
 description: "Back at full strength, toasting some standout tracks from every month of this savage year."
-images: images/featured.jpg
+cover: images/featured.jpg
+images: ["images/featured.jpg"]
 mix_url: /cloud696/episode-5-20211230-185316/
 station: Yard
 draft: false

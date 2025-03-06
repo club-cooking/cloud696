@@ -1,7 +1,8 @@
 ---
 title: "AAJA, October 2022"
 date: 2022-10-14
-images: images/featured.png
+cover: images/featured.png
+images: ["images/featured.png"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-14-10-22/
 station: Aaja
 draft: false

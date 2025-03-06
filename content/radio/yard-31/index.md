@@ -2,7 +2,8 @@
 title: "Yard #31"
 slug: yard-31
 date: 2024-02-08
-images: images/featured.jpg
+cover: images/featured.jpg
+images: ["images/featured.jpg"]
 mix_url: /cloud696/yard-31-20240208-182558/
 station: Yard
 draft: false

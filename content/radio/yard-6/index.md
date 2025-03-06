@@ -3,7 +3,8 @@ title: "Yard #6"
 slug: yard-6
 date: 2022-01-13
 description: "First show of 2k22."
-images: images/featured.png
+cover: images/featured.png
+images: ["images/featured.png"]
 mix_url: /cloud696/episode-6-20220113-184612/
 station: Yard
 draft: false

@@ -1,7 +1,8 @@
 ---
 title: "AAJA, February 2024"
 date: 2024-02-22
-images: images/featured.png
+cover: images/featured.png
+images: ["images/featured.png"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-22-02-24/
 station: Aaja
 draft: false

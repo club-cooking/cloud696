@@ -1,7 +1,8 @@
 ---
 title: "AAJA, July 2024"
 date: 2024-07-25
-images: images/featured.jpg
+cover: images/featured.jpg
+images: ["images/featured.jpg"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-25-07-24/
 station: Aaja
 draft: false

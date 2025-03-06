@@ -1,7 +1,8 @@
 ---
 title: "AAJA, August 2022"
 date: 2022-08-12
-images: images/featured.jpeg
+cover: images/featured.jpeg
+images: ["images/featured.jpeg"]
 mix_url: /Aajamusic/cloud-696-aaja-channel-1-12-08-22/
 station: Aaja
 draft: false

@@ -2,7 +2,8 @@
 title: "Yard #15"
 slug: yard-15
 date: 2022-05-19
-images: images/featured.jpeg
+cover: images/featured.jpeg
+images: ["images/featured.jpeg"]
 mix_url: /cloud696/episode-15-20220519-175921/
 station: Yard
 draft: false

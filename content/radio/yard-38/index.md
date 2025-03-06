@@ -2,7 +2,8 @@
 title: "Yard #38"
 slug: yard-38
 date: 2024-10-09
-images: images/featured.png
+cover: images/featured.png
+images: ["images/featured.png"]
 mix_url: /cloud696/yard-38-20241009-175817/
 station: Yard
 draft: false

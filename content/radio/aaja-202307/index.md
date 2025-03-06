@@ -1,7 +1,8 @@
 ---
 title: "AAJA, July 2023"
 date: 2023-07-14
-images: images/featured.jpg
+cover: images/featured.jpg
+images: ["images/featured.jpg"]
 mix_url: /Aajamusic/cloud696-aaja-channel-1-14-07-23/
 station: Aaja
 draft: false

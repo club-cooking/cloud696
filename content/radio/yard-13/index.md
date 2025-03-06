@@ -3,7 +3,8 @@ title: "Yard #13"
 slug: yard-13
 date: 2022-04-21
 description: "Solo dose of your fortnightly beats"
-images: images/featured.JPG
+cover: images/featured.JPG
+images: ["images/featured.JPG"]
 mix_url: /cloud696/episode-13-20220421-175835/
 station: Yard
 draft: false
